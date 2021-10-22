@@ -67,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				9D13572E271FE5A600C7F6A9 /* Extensions */,
-				9D135727271FD88100C7F6A9 /* CustomViews */,
 				9D135726271FD87200C7F6A9 /* Views */,
 				9D135725271FD85D00C7F6A9 /* Models */,
 				9D135710271FD7F300C7F6A9 /* AppDelegate.swift */,
@@ -96,13 +95,6 @@
 				9D135728271FD89000C7F6A9 /* Onboarding */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		9D135727271FD88100C7F6A9 /* CustomViews */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		9D135728271FD89000C7F6A9 /* Onboarding */ = {

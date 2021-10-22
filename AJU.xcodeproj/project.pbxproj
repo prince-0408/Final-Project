@@ -16,6 +16,8 @@
 		9D135730271FE5DF00C7F6A9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13572F271FE5DF00C7F6A9 /* UIView+Extension.swift */; };
 		9D135733271FEA3300C7F6A9 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D135732271FEA3300C7F6A9 /* OnboardingSlide.swift */; };
 		9D135737271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D135736271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift */; };
+		9D13573D2721C3EB00C7F6A9 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13573C2721C3EB00C7F6A9 /* LogInViewController.swift */; };
+		9D1357412721C40600C7F6A9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1357402721C40600C7F6A9 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		9D13572F271FE5DF00C7F6A9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		9D135732271FEA3300C7F6A9 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		9D135736271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D13573C2721C3EB00C7F6A9 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		9D1357402721C40600C7F6A9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		9D135726271FD87200C7F6A9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9D13573B2721C3B100C7F6A9 /* SignUp */,
+				9D13573A2721C3A000C7F6A9 /* Login */,
 				9D135728271FD89000C7F6A9 /* Onboarding */,
 			);
 			path = Views;
@@ -114,6 +120,22 @@
 				9D13572F271FE5DF00C7F6A9 /* UIView+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9D13573A2721C3A000C7F6A9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9D13573C2721C3EB00C7F6A9 /* LogInViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9D13573B2721C3B100C7F6A9 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				9D1357402721C40600C7F6A9 /* SignUpViewController.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +210,9 @@
 			files = (
 				9D135733271FEA3300C7F6A9 /* OnboardingSlide.swift in Sources */,
 				9D135711271FD7F300C7F6A9 /* AppDelegate.swift in Sources */,
+				9D1357412721C40600C7F6A9 /* SignUpViewController.swift in Sources */,
 				9D135713271FD7F300C7F6A9 /* SceneDelegate.swift in Sources */,
+				9D13573D2721C3EB00C7F6A9 /* LogInViewController.swift in Sources */,
 				9D135730271FE5DF00C7F6A9 /* UIView+Extension.swift in Sources */,
 				9D13572A271FD8CA00C7F6A9 /* OnboardingViewController.swift in Sources */,
 				9D135737271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift in Sources */,

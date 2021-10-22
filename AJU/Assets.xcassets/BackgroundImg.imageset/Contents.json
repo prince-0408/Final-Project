@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "BackgroundImg.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

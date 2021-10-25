@@ -18,6 +18,12 @@
 		9D135737271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D135736271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift */; };
 		9D13573D2721C3EB00C7F6A9 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13573C2721C3EB00C7F6A9 /* LogInViewController.swift */; };
 		9D1357412721C40600C7F6A9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1357402721C40600C7F6A9 /* SignUpViewController.swift */; };
+		9D13576127259E2D00C7F6A9 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576027259E2D00C7F6A9 /* FirstScreenViewController.swift */; };
+		9D1357662726CF3600C7F6A9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1357652726CF3600C7F6A9 /* HomeViewController.swift */; };
+		9D1357692726CF9300C7F6A9 /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1357682726CF9300C7F6A9 /* AttendanceViewController.swift */; };
+		9D13576C2726CFBA00C7F6A9 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */; };
+		9D13576E2726CFFB00C7F6A9 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576D2726CFFB00C7F6A9 /* EventsViewController.swift */; };
+		9D1357712726EF9500C7F6A9 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1357702726EF9500C7F6A9 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +40,12 @@
 		9D135736271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		9D13573C2721C3EB00C7F6A9 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		9D1357402721C40600C7F6A9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9D13576027259E2D00C7F6A9 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
+		9D1357652726CF3600C7F6A9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9D1357682726CF9300C7F6A9 /* AttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceViewController.swift; sourceTree = "<group>"; };
+		9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		9D13576D2726CFFB00C7F6A9 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		9D1357702726EF9500C7F6A9 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,8 @@
 		9D135726271FD87200C7F6A9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9D1357492724259B00C7F6A9 /* Screens */,
+				9D1357442723343F00C7F6A9 /* HomeView */,
 				9D13573B2721C3B100C7F6A9 /* SignUp */,
 				9D13573A2721C3A000C7F6A9 /* Login */,
 				9D135728271FD89000C7F6A9 /* Onboarding */,
@@ -128,6 +142,26 @@
 				9D1357402721C40600C7F6A9 /* SignUpViewController.swift */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		9D1357442723343F00C7F6A9 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				9D13576027259E2D00C7F6A9 /* FirstScreenViewController.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		9D1357492724259B00C7F6A9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9D1357652726CF3600C7F6A9 /* HomeViewController.swift */,
+				9D1357682726CF9300C7F6A9 /* AttendanceViewController.swift */,
+				9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */,
+				9D13576D2726CFFB00C7F6A9 /* EventsViewController.swift */,
+				9D1357702726EF9500C7F6A9 /* SettingViewController.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,10 +237,16 @@
 				9D135733271FEA3300C7F6A9 /* OnboardingSlide.swift in Sources */,
 				9D135711271FD7F300C7F6A9 /* AppDelegate.swift in Sources */,
 				9D1357412721C40600C7F6A9 /* SignUpViewController.swift in Sources */,
+				9D1357692726CF9300C7F6A9 /* AttendanceViewController.swift in Sources */,
 				9D135713271FD7F300C7F6A9 /* SceneDelegate.swift in Sources */,
+				9D1357712726EF9500C7F6A9 /* SettingViewController.swift in Sources */,
 				9D13573D2721C3EB00C7F6A9 /* LogInViewController.swift in Sources */,
+				9D1357662726CF3600C7F6A9 /* HomeViewController.swift in Sources */,
+				9D13576E2726CFFB00C7F6A9 /* EventsViewController.swift in Sources */,
 				9D135730271FE5DF00C7F6A9 /* UIView+Extension.swift in Sources */,
+				9D13576C2726CFBA00C7F6A9 /* NotesViewController.swift in Sources */,
 				9D13572A271FD8CA00C7F6A9 /* OnboardingViewController.swift in Sources */,
+				9D13576127259E2D00C7F6A9 /* FirstScreenViewController.swift in Sources */,
 				9D135737271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

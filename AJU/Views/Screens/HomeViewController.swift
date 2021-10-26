@@ -8,7 +8,8 @@ class HomeViewController: UIViewController {
 
         
     }
-        @IBAction func settingButtonTapped(_ sender: Any) {
+        
+    @IBAction func settingButtonTapped(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(identifier: "setting")
         vc.modalPresentationStyle = .overFullScreen

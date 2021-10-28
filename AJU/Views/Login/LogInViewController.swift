@@ -30,5 +30,4 @@ class LogInViewController: UIViewController {
         vc.modalPresentationStyle = .overFullScreen
         present(vc, animated: true)
     }
-    
 }

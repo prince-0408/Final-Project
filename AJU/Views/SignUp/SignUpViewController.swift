@@ -31,5 +31,11 @@ class SignUpViewController: UIViewController {
         present(vc, animated: true)
         
     }
+    @IBAction func signUpButtonTapped(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(identifier: "TabBarView")
+        vc.modalPresentationStyle = .overFullScreen
+        present(vc, animated: true)
+    }
     
 }

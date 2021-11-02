@@ -20,4 +20,12 @@ class NotesViewController: UIViewController {
         vc.modalPresentationStyle = .popover
         present(vc, animated: true)
     }
+    @IBAction func showPdf(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(identifier: "showPdf")
+        vc.modalPresentationStyle = .popover
+        present(vc, animated: true)
+    }
+    
+   
 }

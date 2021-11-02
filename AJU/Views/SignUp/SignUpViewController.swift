@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import FirebaseAuth
+import Firebase
 
 class SignUpViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
@@ -22,6 +24,15 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func SignUpTapped(_ sender: Any) {
+        if email.text?.isEmpty == true {
+            print("No text in email field")
+            return
+        }
+        if password.text?.isEmpty == true {
+            print("No text in the password field")
+            return
+        }
+        
     }
     
     @IBAction func CreateAccount(_ sender: Any) {
@@ -31,11 +42,9 @@ class SignUpViewController: UIViewController {
         present(vc, animated: true)
         
     }
-    @IBAction func signUpButtonTapped(_ sender: UIButton) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(identifier: "TabBarView")
-        vc.modalPresentationStyle = .overFullScreen
-        present(vc, animated: true)
+    
+    func signUP() {
+        
     }
     
 }

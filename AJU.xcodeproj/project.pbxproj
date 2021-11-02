@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,8 +24,13 @@
 		9D13576C2726CFBA00C7F6A9 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */; };
 		9D13576E2726CFFB00C7F6A9 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576D2726CFFB00C7F6A9 /* EventsViewController.swift */; };
 		9D1357712726EF9500C7F6A9 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1357702726EF9500C7F6A9 /* SettingViewController.swift */; };
+		9D8508F4272BA5E900E4DCFE /* ShowPdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */; };
 		9DB3D7A12728821300D5FEF4 /* PdfAddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3D7A02728821200D5FEF4 /* PdfAddingViewController.swift */; };
 		9DB3D7A42728850D00D5FEF4 /* UpcomingEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */; };
+		9DF1F42D272FE51700CE1AD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DF1F42C272FE51700CE1AD6 /* GoogleService-Info.plist */; };
+		9DF1F4432730636D00CE1AD6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4422730636D00CE1AD6 /* FirebaseAuth */; };
+		9DF1F4452730636D00CE1AD6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4442730636D00CE1AD6 /* FirebaseDatabase */; };
+		9DF1F4472730636D00CE1AD6 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4462730636D00CE1AD6 /* FirebaseMessaging */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +53,10 @@
 		9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		9D13576D2726CFFB00C7F6A9 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		9D1357702726EF9500C7F6A9 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPdfViewController.swift; sourceTree = "<group>"; };
 		9DB3D7A02728821200D5FEF4 /* PdfAddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfAddingViewController.swift; sourceTree = "<group>"; };
 		9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventViewController.swift; sourceTree = "<group>"; };
+		9DF1F42C272FE51700CE1AD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DF1F4472730636D00CE1AD6 /* FirebaseMessaging in Frameworks */,
+				9DF1F4452730636D00CE1AD6 /* FirebaseDatabase in Frameworks */,
+				9DF1F4432730636D00CE1AD6 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +98,7 @@
 				9D135710271FD7F300C7F6A9 /* AppDelegate.swift */,
 				9D135712271FD7F300C7F6A9 /* SceneDelegate.swift */,
 				9D135716271FD7F300C7F6A9 /* Main.storyboard */,
+				9DF1F42C272FE51700CE1AD6 /* GoogleService-Info.plist */,
 				9D135719271FD80300C7F6A9 /* Assets.xcassets */,
 				9D13571B271FD80400C7F6A9 /* LaunchScreen.storyboard */,
 				9D13571E271FD80400C7F6A9 /* Info.plist */,
@@ -107,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				9D1357492724259B00C7F6A9 /* Screens */,
-				9D1357442723343F00C7F6A9 /* HomeView */,
+				9D1357442723343F00C7F6A9 /* FirstScreen */,
 				9D13573B2721C3B100C7F6A9 /* SignUp */,
 				9D13573A2721C3A000C7F6A9 /* Login */,
 				9D135728271FD89000C7F6A9 /* Onboarding */,
@@ -148,12 +159,12 @@
 			path = SignUp;
 			sourceTree = "<group>";
 		};
-		9D1357442723343F00C7F6A9 /* HomeView */ = {
+		9D1357442723343F00C7F6A9 /* FirstScreen */ = {
 			isa = PBXGroup;
 			children = (
 				9D13576027259E2D00C7F6A9 /* FirstScreenViewController.swift */,
 			);
-			path = HomeView;
+			path = FirstScreen;
 			sourceTree = "<group>";
 		};
 		9D1357492724259B00C7F6A9 /* Screens */ = {
@@ -166,6 +177,7 @@
 				9D1357702726EF9500C7F6A9 /* SettingViewController.swift */,
 				9DB3D7A02728821200D5FEF4 /* PdfAddingViewController.swift */,
 				9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */,
+				9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -186,6 +198,11 @@
 			dependencies = (
 			);
 			name = AJU;
+			packageProductDependencies = (
+				9DF1F4422730636D00CE1AD6 /* FirebaseAuth */,
+				9DF1F4442730636D00CE1AD6 /* FirebaseDatabase */,
+				9DF1F4462730636D00CE1AD6 /* FirebaseMessaging */,
+			);
 			productName = AJU;
 			productReference = 9D13570D271FD7F300C7F6A9 /* AJU.app */;
 			productType = "com.apple.product-type.application";
@@ -213,6 +230,9 @@
 				Base,
 			);
 			mainGroup = 9D135704271FD7F300C7F6A9;
+			packageReferences = (
+				9DF1F4412730636D00CE1AD6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9D13570E271FD7F300C7F6A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -228,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D13571D271FD80400C7F6A9 /* LaunchScreen.storyboard in Resources */,
+				9DF1F42D272FE51700CE1AD6 /* GoogleService-Info.plist in Resources */,
 				9D13571A271FD80400C7F6A9 /* Assets.xcassets in Resources */,
 				9D135718271FD7F300C7F6A9 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +271,7 @@
 				9D1357662726CF3600C7F6A9 /* HomeViewController.swift in Sources */,
 				9D13576E2726CFFB00C7F6A9 /* EventsViewController.swift in Sources */,
 				9D135730271FE5DF00C7F6A9 /* UIView+Extension.swift in Sources */,
+				9D8508F4272BA5E900E4DCFE /* ShowPdfViewController.swift in Sources */,
 				9D13576C2726CFBA00C7F6A9 /* NotesViewController.swift in Sources */,
 				9D13572A271FD8CA00C7F6A9 /* OnboardingViewController.swift in Sources */,
 				9D13576127259E2D00C7F6A9 /* FirstScreenViewController.swift in Sources */,
@@ -455,6 +477,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DF1F4412730636D00CE1AD6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DF1F4422730636D00CE1AD6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DF1F4412730636D00CE1AD6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9DF1F4442730636D00CE1AD6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DF1F4412730636D00CE1AD6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		9DF1F4462730636D00CE1AD6 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DF1F4412730636D00CE1AD6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9D135705271FD7F300C7F6A9 /* Project object */;
 }

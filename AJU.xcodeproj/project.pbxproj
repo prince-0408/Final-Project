@@ -25,7 +25,6 @@
 		9D13576E2726CFFB00C7F6A9 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576D2726CFFB00C7F6A9 /* EventsViewController.swift */; };
 		9D1357712726EF9500C7F6A9 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1357702726EF9500C7F6A9 /* SettingViewController.swift */; };
 		9D8508F4272BA5E900E4DCFE /* ShowPdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */; };
-		9DB3D7A12728821300D5FEF4 /* PdfAddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3D7A02728821200D5FEF4 /* PdfAddingViewController.swift */; };
 		9DB3D7A42728850D00D5FEF4 /* UpcomingEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */; };
 		9DF1F42D272FE51700CE1AD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DF1F42C272FE51700CE1AD6 /* GoogleService-Info.plist */; };
 		9DF1F4432730636D00CE1AD6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4422730636D00CE1AD6 /* FirebaseAuth */; };
@@ -54,7 +53,6 @@
 		9D13576D2726CFFB00C7F6A9 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		9D1357702726EF9500C7F6A9 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPdfViewController.swift; sourceTree = "<group>"; };
-		9DB3D7A02728821200D5FEF4 /* PdfAddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfAddingViewController.swift; sourceTree = "<group>"; };
 		9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventViewController.swift; sourceTree = "<group>"; };
 		9DF1F42C272FE51700CE1AD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,7 +173,6 @@
 				9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */,
 				9D13576D2726CFFB00C7F6A9 /* EventsViewController.swift */,
 				9D1357702726EF9500C7F6A9 /* SettingViewController.swift */,
-				9DB3D7A02728821200D5FEF4 /* PdfAddingViewController.swift */,
 				9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */,
 				9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */,
 			);
@@ -276,7 +273,6 @@
 				9D13572A271FD8CA00C7F6A9 /* OnboardingViewController.swift in Sources */,
 				9D13576127259E2D00C7F6A9 /* FirstScreenViewController.swift in Sources */,
 				9DB3D7A42728850D00D5FEF4 /* UpcomingEventViewController.swift in Sources */,
-				9DB3D7A12728821300D5FEF4 /* PdfAddingViewController.swift in Sources */,
 				9D135737271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

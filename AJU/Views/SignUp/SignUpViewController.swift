@@ -32,7 +32,6 @@ class SignUpViewController: UIViewController {
             print("No text in the password field")
             return
         }
-        
     }
     
     @IBAction func CreateAccount(_ sender: Any) {
@@ -42,9 +41,13 @@ class SignUpViewController: UIViewController {
         present(vc, animated: true)
         
     }
-    
-    func signUP() {
-        
+    @IBAction func SignUpButtonTapped(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(identifier: "TabBarView")
+        vc.modalPresentationStyle = .overFullScreen
+        present(vc, animated: true)
     }
     
-}
+    
+    }
+

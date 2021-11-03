@@ -30,6 +30,7 @@
 		9DF1F4432730636D00CE1AD6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4422730636D00CE1AD6 /* FirebaseAuth */; };
 		9DF1F4452730636D00CE1AD6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4442730636D00CE1AD6 /* FirebaseDatabase */; };
 		9DF1F4472730636D00CE1AD6 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4462730636D00CE1AD6 /* FirebaseMessaging */; };
+		9DFAC4C82732C4E9007E47E6 /* AddPdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAC4C72732C4E9007E47E6 /* AddPdfViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPdfViewController.swift; sourceTree = "<group>"; };
 		9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventViewController.swift; sourceTree = "<group>"; };
 		9DF1F42C272FE51700CE1AD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9DFAC4C72732C4E9007E47E6 /* AddPdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPdfViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				9D1357702726EF9500C7F6A9 /* SettingViewController.swift */,
 				9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */,
 				9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */,
+				9DFAC4C72732C4E9007E47E6 /* AddPdfViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				9D135711271FD7F300C7F6A9 /* AppDelegate.swift in Sources */,
 				9D1357412721C40600C7F6A9 /* SignUpViewController.swift in Sources */,
 				9D1357692726CF9300C7F6A9 /* AttendanceViewController.swift in Sources */,
+				9DFAC4C82732C4E9007E47E6 /* AddPdfViewController.swift in Sources */,
 				9D135713271FD7F300C7F6A9 /* SceneDelegate.swift in Sources */,
 				9D1357712726EF9500C7F6A9 /* SettingViewController.swift in Sources */,
 				9D13573D2721C3EB00C7F6A9 /* LogInViewController.swift in Sources */,

@@ -1,13 +1,13 @@
 //
-//  UpcomingEventViewController.swift
+//  ShowPdfViewController.swift
 //  AJU
 //
-//  Created by Anand Yadav on 27/10/21.
+//  Created by Anand Yadav on 29/10/21.
 //
 
 import UIKit
 
-class UpcomingEventViewController: UIViewController {
+class ShowPdfViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,5 +20,4 @@ class UpcomingEventViewController: UIViewController {
         vc.modalPresentationStyle = .overFullScreen
         present(vc, animated: true)
     }
-    
 }

@@ -19,11 +19,17 @@ class NotesViewController: UIViewController {
         
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc = storyboard.instantiateViewController(identifier: "showPdf")
-            vc.modalPresentationStyle = .overFullScreen
+            vc.modalPresentationStyle = .popover
             present(vc, animated: true)
     }
-    
-    @IBAction func addPdf(_ sender: Any) {
+    @IBAction func UploadPdf(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(identifier: "uploadNotes")
+        vc.modalPresentationStyle = .popover
+        present(vc, animated: true)
     }
+    
+    
+    
     
 }

@@ -24,13 +24,13 @@
 		9D13576C2726CFBA00C7F6A9 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */; };
 		9D13576E2726CFFB00C7F6A9 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576D2726CFFB00C7F6A9 /* EventsViewController.swift */; };
 		9D1357712726EF9500C7F6A9 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1357702726EF9500C7F6A9 /* SettingViewController.swift */; };
+		9D81D41B2735773C00E806D3 /* UploadNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D81D41A2735773B00E806D3 /* UploadNotesViewController.swift */; };
 		9D8508F4272BA5E900E4DCFE /* ShowPdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */; };
 		9DB3D7A42728850D00D5FEF4 /* UpcomingEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */; };
 		9DF1F42D272FE51700CE1AD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DF1F42C272FE51700CE1AD6 /* GoogleService-Info.plist */; };
 		9DF1F4432730636D00CE1AD6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4422730636D00CE1AD6 /* FirebaseAuth */; };
 		9DF1F4452730636D00CE1AD6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4442730636D00CE1AD6 /* FirebaseDatabase */; };
 		9DF1F4472730636D00CE1AD6 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4462730636D00CE1AD6 /* FirebaseMessaging */; };
-		9DFAC4C82732C4E9007E47E6 /* AddPdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAC4C72732C4E9007E47E6 /* AddPdfViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,10 +53,10 @@
 		9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		9D13576D2726CFFB00C7F6A9 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		9D1357702726EF9500C7F6A9 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		9D81D41A2735773B00E806D3 /* UploadNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadNotesViewController.swift; sourceTree = "<group>"; };
 		9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPdfViewController.swift; sourceTree = "<group>"; };
 		9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventViewController.swift; sourceTree = "<group>"; };
 		9DF1F42C272FE51700CE1AD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9DFAC4C72732C4E9007E47E6 /* AddPdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPdfViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +117,11 @@
 		9D135726271FD87200C7F6A9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9D81D418273518D200E806D3 /* NotesScreen */,
 				9D1357492724259B00C7F6A9 /* Screens */,
 				9D1357442723343F00C7F6A9 /* FirstScreen */,
-				9D13573B2721C3B100C7F6A9 /* SignUp */,
-				9D13573A2721C3A000C7F6A9 /* Login */,
+				9D13573B2721C3B100C7F6A9 /* SignUpScreen */,
+				9D13573A2721C3A000C7F6A9 /* LoginScreen */,
 				9D135728271FD89000C7F6A9 /* Onboarding */,
 			);
 			path = Views;
@@ -143,20 +144,20 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		9D13573A2721C3A000C7F6A9 /* Login */ = {
+		9D13573A2721C3A000C7F6A9 /* LoginScreen */ = {
 			isa = PBXGroup;
 			children = (
 				9D13573C2721C3EB00C7F6A9 /* LogInViewController.swift */,
 			);
-			path = Login;
+			path = LoginScreen;
 			sourceTree = "<group>";
 		};
-		9D13573B2721C3B100C7F6A9 /* SignUp */ = {
+		9D13573B2721C3B100C7F6A9 /* SignUpScreen */ = {
 			isa = PBXGroup;
 			children = (
 				9D1357402721C40600C7F6A9 /* SignUpViewController.swift */,
 			);
-			path = SignUp;
+			path = SignUpScreen;
 			sourceTree = "<group>";
 		};
 		9D1357442723343F00C7F6A9 /* FirstScreen */ = {
@@ -172,14 +173,21 @@
 			children = (
 				9D1357652726CF3600C7F6A9 /* HomeViewController.swift */,
 				9D1357682726CF9300C7F6A9 /* AttendanceViewController.swift */,
-				9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */,
 				9D13576D2726CFFB00C7F6A9 /* EventsViewController.swift */,
 				9D1357702726EF9500C7F6A9 /* SettingViewController.swift */,
 				9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */,
-				9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */,
-				9DFAC4C72732C4E9007E47E6 /* AddPdfViewController.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		9D81D418273518D200E806D3 /* NotesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */,
+				9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */,
+				9D81D41A2735773B00E806D3 /* UploadNotesViewController.swift */,
+			);
+			path = NotesScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +273,6 @@
 				9D135711271FD7F300C7F6A9 /* AppDelegate.swift in Sources */,
 				9D1357412721C40600C7F6A9 /* SignUpViewController.swift in Sources */,
 				9D1357692726CF9300C7F6A9 /* AttendanceViewController.swift in Sources */,
-				9DFAC4C82732C4E9007E47E6 /* AddPdfViewController.swift in Sources */,
 				9D135713271FD7F300C7F6A9 /* SceneDelegate.swift in Sources */,
 				9D1357712726EF9500C7F6A9 /* SettingViewController.swift in Sources */,
 				9D13573D2721C3EB00C7F6A9 /* LogInViewController.swift in Sources */,
@@ -276,6 +283,7 @@
 				9D13576C2726CFBA00C7F6A9 /* NotesViewController.swift in Sources */,
 				9D13572A271FD8CA00C7F6A9 /* OnboardingViewController.swift in Sources */,
 				9D13576127259E2D00C7F6A9 /* FirstScreenViewController.swift in Sources */,
+				9D81D41B2735773C00E806D3 /* UploadNotesViewController.swift in Sources */,
 				9DB3D7A42728850D00D5FEF4 /* UpcomingEventViewController.swift in Sources */,
 				9D135737271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift in Sources */,
 			);

@@ -1,37 +1,43 @@
 //
-//  LogInViewController.swift
+//  SignUpViewController.swift
 //  AJU
 //
 //  Created by Anand Yadav on 21/10/21.
 //
 
 import UIKit
+import FirebaseAuth
+import Firebase
 
-class LogInViewController: UIViewController {
+class SignUpViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
-    @IBOutlet weak var rollno: UITextField!
+    @IBOutlet weak var name: UITextField!
+    @IBOutlet weak var phone: UITextField!
+    @IBOutlet weak var roll: UITextField!
     @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var confirm: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
     
-    @IBAction func loginTapped(_ sender: Any) {
+    @IBAction func SignUpTapped(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(identifier: "TabBarView")
         vc.modalPresentationStyle = .overFullScreen
         present(vc, animated: true)
     }
     
-    @IBAction func forgotPasswordTapped(_ sender: Any) {
-    }
-    
-    @IBAction func SignUpTapped(_ sender: Any) {
+    @IBAction func CreateAccount(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(identifier: "SignUp")
+        let vc = storyboard.instantiateViewController(identifier: "Login")
         vc.modalPresentationStyle = .overFullScreen
         present(vc, animated: true)
+        
     }
-}
+    
+    
+    }
+

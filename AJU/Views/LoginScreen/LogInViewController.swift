@@ -14,14 +14,13 @@ class LogInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func loginTapped(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(identifier: "TabBarView")
         vc.modalPresentationStyle = .overFullScreen
+        vc.modalTransitionStyle = .flipHorizontal
         present(vc, animated: true)
     }
     
@@ -31,12 +30,10 @@ class LogInViewController: UIViewController {
         vc.modalPresentationStyle = .overFullScreen
         present(vc, animated: true)
     }
-    
-    @IBAction func forgotPwdTapped(_ sender: Any) {
+    @IBAction func forgotPasswordTapped(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(identifier: "forgotPsw")
+        let vc = storyboard.instantiateViewController(identifier: "forgotPwd")
         vc.modalPresentationStyle = .overFullScreen
         present(vc, animated: true)
     }
-    
 }

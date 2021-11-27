@@ -19,7 +19,6 @@
 		9D135737271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D135736271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift */; };
 		9D13573D2721C3EB00C7F6A9 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13573C2721C3EB00C7F6A9 /* LogInViewController.swift */; };
 		9D1357412721C40600C7F6A9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1357402721C40600C7F6A9 /* SignUpViewController.swift */; };
-		9D13576127259E2D00C7F6A9 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576027259E2D00C7F6A9 /* FirstScreenViewController.swift */; };
 		9D1357662726CF3600C7F6A9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1357652726CF3600C7F6A9 /* HomeViewController.swift */; };
 		9D1357692726CF9300C7F6A9 /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1357682726CF9300C7F6A9 /* AttendanceViewController.swift */; };
 		9D13576C2726CFBA00C7F6A9 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */; };
@@ -31,9 +30,10 @@
 		9D8508F4272BA5E900E4DCFE /* ShowPdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */; };
 		9DB3D7A42728850D00D5FEF4 /* UpcomingEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */; };
 		9DF1F42D272FE51700CE1AD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DF1F42C272FE51700CE1AD6 /* GoogleService-Info.plist */; };
-		9DF1F4432730636D00CE1AD6 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4422730636D00CE1AD6 /* SwiftPackageProductDependency */; };
-		9DF1F4452730636D00CE1AD6 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4442730636D00CE1AD6 /* SwiftPackageProductDependency */; };
-		9DF1F4472730636D00CE1AD6 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4462730636D00CE1AD6 /* SwiftPackageProductDependency */; };
+		9DF1F4432730636D00CE1AD6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4422730636D00CE1AD6 /* FirebaseAuth */; };
+		9DF1F4452730636D00CE1AD6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4442730636D00CE1AD6 /* FirebaseDatabase */; };
+		9DF1F4472730636D00CE1AD6 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4462730636D00CE1AD6 /* FirebaseMessaging */; };
+		9DFD807E27441A4B0049B58E /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD807D27441A480049B58E /* TimeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +50,6 @@
 		9D135736271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		9D13573C2721C3EB00C7F6A9 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		9D1357402721C40600C7F6A9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		9D13576027259E2D00C7F6A9 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
 		9D1357652726CF3600C7F6A9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9D1357682726CF9300C7F6A9 /* AttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceViewController.swift; sourceTree = "<group>"; };
 		9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		9D8508F3272BA5E900E4DCFE /* ShowPdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPdfViewController.swift; sourceTree = "<group>"; };
 		9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventViewController.swift; sourceTree = "<group>"; };
 		9DF1F42C272FE51700CE1AD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9DFD807D27441A480049B58E /* TimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
 		B77578D1A83AF4C312BCBF6B /* Pods_AJU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC9B304B57BD68BE0A27847 /* Pods-AJU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJU.debug.xcconfig"; path = "Target Support Files/Pods-AJU/Pods-AJU.debug.xcconfig"; sourceTree = "<group>"; };
 		F46865EC7C489C5DD9477DC3 /* Pods-AJU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJU.release.xcconfig"; path = "Target Support Files/Pods-AJU/Pods-AJU.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,9 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DF1F4472730636D00CE1AD6 /* BuildFile in Frameworks */,
-				9DF1F4452730636D00CE1AD6 /* BuildFile in Frameworks */,
-				9DF1F4432730636D00CE1AD6 /* BuildFile in Frameworks */,
+				9DF1F4472730636D00CE1AD6 /* FirebaseMessaging in Frameworks */,
+				9DF1F4452730636D00CE1AD6 /* FirebaseDatabase in Frameworks */,
+				9DF1F4432730636D00CE1AD6 /* FirebaseAuth in Frameworks */,
 				641331FE1E096027DAC0E8AB /* Pods_AJU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,7 +88,6 @@
 				ECC9B304B57BD68BE0A27847 /* Pods-AJU.debug.xcconfig */,
 				F46865EC7C489C5DD9477DC3 /* Pods-AJU.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,7 +139,6 @@
 			children = (
 				9D81D418273518D200E806D3 /* NotesScreen */,
 				9D1357492724259B00C7F6A9 /* Screens */,
-				9D1357442723343F00C7F6A9 /* FirstScreen */,
 				9D13573B2721C3B100C7F6A9 /* SignUpScreen */,
 				9D13573A2721C3A000C7F6A9 /* LoginScreen */,
 				9D135728271FD89000C7F6A9 /* Onboarding */,
@@ -181,14 +179,6 @@
 			path = SignUpScreen;
 			sourceTree = "<group>";
 		};
-		9D1357442723343F00C7F6A9 /* FirstScreen */ = {
-			isa = PBXGroup;
-			children = (
-				9D13576027259E2D00C7F6A9 /* FirstScreenViewController.swift */,
-			);
-			path = FirstScreen;
-			sourceTree = "<group>";
-		};
 		9D1357492724259B00C7F6A9 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +189,7 @@
 				9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */,
 				9D793791273F938700CFC8A7 /* ForgotPasswordViewController.swift */,
 				9D793794273F943600CFC8A7 /* DetailsScreenViewController.swift */,
+				9DFD807D27441A480049B58E /* TimeTableViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -240,9 +231,9 @@
 			);
 			name = AJU;
 			packageProductDependencies = (
-				9DF1F4422730636D00CE1AD6 /* SwiftPackageProductDependency */,
-				9DF1F4442730636D00CE1AD6 /* SwiftPackageProductDependency */,
-				9DF1F4462730636D00CE1AD6 /* SwiftPackageProductDependency */,
+				9DF1F4422730636D00CE1AD6 /* FirebaseAuth */,
+				9DF1F4442730636D00CE1AD6 /* FirebaseDatabase */,
+				9DF1F4462730636D00CE1AD6 /* FirebaseMessaging */,
 			);
 			productName = AJU;
 			productReference = 9D13570D271FD7F300C7F6A9 /* AJU.app */;
@@ -272,7 +263,7 @@
 			);
 			mainGroup = 9D135704271FD7F300C7F6A9;
 			packageReferences = (
-				9DF1F4412730636D00CE1AD6 /* RemoteSwiftPackageReference */,
+				9DF1F4412730636D00CE1AD6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 9D13570E271FD7F300C7F6A9 /* Products */;
 			projectDirPath = "";
@@ -357,7 +348,7 @@
 				9D8508F4272BA5E900E4DCFE /* ShowPdfViewController.swift in Sources */,
 				9D13576C2726CFBA00C7F6A9 /* NotesViewController.swift in Sources */,
 				9D13572A271FD8CA00C7F6A9 /* OnboardingViewController.swift in Sources */,
-				9D13576127259E2D00C7F6A9 /* FirstScreenViewController.swift in Sources */,
+				9DFD807E27441A4B0049B58E /* TimeTableViewController.swift in Sources */,
 				9D793792273F938700CFC8A7 /* ForgotPasswordViewController.swift in Sources */,
 				9D81D41B2735773C00E806D3 /* UploadNotesViewController.swift in Sources */,
 				9D793795273F943600CFC8A7 /* DetailsScreenViewController.swift in Sources */,
@@ -566,7 +557,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9DF1F4412730636D00CE1AD6 /* RemoteSwiftPackageReference */ = {
+		9DF1F4412730636D00CE1AD6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
@@ -577,19 +568,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9DF1F4422730636D00CE1AD6 /* SwiftPackageProductDependency */ = {
+		9DF1F4422730636D00CE1AD6 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9DF1F4412730636D00CE1AD6 /* RemoteSwiftPackageReference */;
+			package = 9DF1F4412730636D00CE1AD6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
-		9DF1F4442730636D00CE1AD6 /* SwiftPackageProductDependency */ = {
+		9DF1F4442730636D00CE1AD6 /* FirebaseDatabase */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9DF1F4412730636D00CE1AD6 /* RemoteSwiftPackageReference */;
+			package = 9DF1F4412730636D00CE1AD6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseDatabase;
 		};
-		9DF1F4462730636D00CE1AD6 /* SwiftPackageProductDependency */ = {
+		9DF1F4462730636D00CE1AD6 /* FirebaseMessaging */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9DF1F4412730636D00CE1AD6 /* RemoteSwiftPackageReference */;
+			package = 9DF1F4412730636D00CE1AD6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseMessaging;
 		};
 /* End XCSwiftPackageProductDependency section */

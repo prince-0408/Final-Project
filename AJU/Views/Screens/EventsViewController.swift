@@ -18,7 +18,7 @@ class EventsViewController: UIViewController {
     @IBAction func showUpcomingEvents(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(identifier: "upcomingEvent")
-        vc.modalPresentationStyle = .popover
+        vc.modalPresentationStyle = .overFullScreen
         present(vc, animated: true)
     }
     

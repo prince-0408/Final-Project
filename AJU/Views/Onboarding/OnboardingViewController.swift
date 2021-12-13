@@ -30,19 +30,27 @@ class OnboardingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        if(!UserDefaults.standard.isRegistered()) {
+            //Show Login Screen
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(identifier: "SignUp")
+            vc.modalPresentationStyle = .overFullScreen
+            present(vc, animated: true)
+        }else {
         slides = [
             OnboardingSlide(title: "Analytics", description: "Manage your attendance easily. Set your minimum attendance criteria and try to stay above it.", image: #imageLiteral(resourceName: "Analytics")),
         OnboardingSlide(title: "Organize", description: "Search and download notes, add relevant tags and upload your own notes.", image: #imageLiteral(resourceName: "Organize")),
         OnboardingSlide(title: "Schedule", description: "Look out for upcoming events in the tool section and register from within the app", image: #imageLiteral(resourceName: "Schedule"))
         ]
+      }
         
     }
     @IBAction func nextBtnClicked(_ sender: UIButton) {
         if currentPage == slides.count - 1 {
-            let controller = storyboard?.instantiateViewController(identifier: "HomeNC") as! UINavigationController
-            controller.modalPresentationStyle = .fullScreen
-            controller.modalTransitionStyle = .flipHorizontal
-            present(controller, animated: true, completion: nil)
+            let controller = storyboard?.instantiateViewController(identifier: "SignUp")
+            controller!.modalPresentationStyle = .fullScreen
+            controller!.modalTransitionStyle = .flipHorizontal
+            present(controller!, animated: true, completion: nil)
         } else {
             currentPage += 1
             let indexPath = IndexPath(item: currentPage, section: 0)

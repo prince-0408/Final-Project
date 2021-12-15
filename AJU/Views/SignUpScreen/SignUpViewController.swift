@@ -15,7 +15,10 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var password: UITextField!
-    @IBOutlet weak var txtConfirmPwd: UITextField!
+    @IBOutlet weak var collegename: UITextField!
+    @IBOutlet weak var branchName: UITextField!
+    @IBOutlet weak var academicYear: UITextField!
+    @IBOutlet weak var rollNumber: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,15 +29,15 @@ class SignUpViewController: UIViewController {
 
     }
     @IBAction func CreateAccount(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(identifier: "Login")
-        vc.modalPresentationStyle = .overFullScreen
-        present(vc, animated: true)
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let vc = storyboard.instantiateViewController(identifier: "Login")
+//        vc.modalPresentationStyle = .overFullScreen
+//        present(vc, animated: true)
         
     }
     
 func validateUserInput() {
-    if email.text!.isEmpty || name.text!.isEmpty || password.text!.isEmpty || txtConfirmPwd.text!.isEmpty {
+    if email.text!.isEmpty || name.text!.isEmpty || password.text!.isEmpty {
     
     } else {
         UserDefaults.standard.setEmail(value: email.text!)

@@ -36,6 +36,7 @@
 		9DC981A927685D17001B4F96 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC981A827685D17001B4F96 /* CalendarCell.swift */; };
 		9DC981AF27686A86001B4F96 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC981AE27686A86001B4F96 /* EventCell.swift */; };
 		9DC981B127687A32001B4F96 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC981B027687A32001B4F96 /* Event.swift */; };
+		9DC981B5276A67C2001B4F96 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC981B4276A67C2001B4F96 /* AlertViewController.swift */; };
 		9DF1F42D272FE51700CE1AD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DF1F42C272FE51700CE1AD6 /* GoogleService-Info.plist */; };
 		9DF1F4432730636D00CE1AD6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4422730636D00CE1AD6 /* FirebaseAuth */; };
 		9DF1F4452730636D00CE1AD6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF1F4442730636D00CE1AD6 /* FirebaseDatabase */; };
@@ -73,6 +74,7 @@
 		9DC981A827685D17001B4F96 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		9DC981AE27686A86001B4F96 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		9DC981B027687A32001B4F96 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		9DC981B4276A67C2001B4F96 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		9DF1F42C272FE51700CE1AD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9DFD807D27441A480049B58E /* TimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
 		B77578D1A83AF4C312BCBF6B /* Pods_AJU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -210,6 +212,7 @@
 				9DC981A827685D17001B4F96 /* CalendarCell.swift */,
 				9DC981AE27686A86001B4F96 /* EventCell.swift */,
 				9DC981B027687A32001B4F96 /* Event.swift */,
+				9DC981B4276A67C2001B4F96 /* AlertViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				9DC981A7276858E3001B4F96 /* CalendarHelper.swift in Sources */,
 				9D1357662726CF3600C7F6A9 /* HomeViewController.swift in Sources */,
 				9D13576E2726CFFB00C7F6A9 /* EventsViewController.swift in Sources */,
+				9DC981B5276A67C2001B4F96 /* AlertViewController.swift in Sources */,
 				9D135730271FE5DF00C7F6A9 /* UIView+Extension.swift in Sources */,
 				9D8508F4272BA5E900E4DCFE /* ShowPdfViewController.swift in Sources */,
 				9D13576C2726CFBA00C7F6A9 /* NotesViewController.swift in Sources */,

@@ -9,6 +9,8 @@ import UIKit
 import FirebaseAuth
 import Firebase
 import nanopb
+import SwiftUI
+
 
 
 class SignUpViewController: UIViewController {
@@ -24,16 +26,16 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
     }
     @IBAction func SignUpTapped(_ sender: Any) {
-        
+       
         validateUserInput()
-
+        
+        ProgressHUD.show("Loading")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+            ProgressHUD.dismiss()
+        }
     }
     @IBAction func CreateAccount(_ sender: Any) {
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let vc = storyboard.instantiateViewController(identifier: "Login")
-//        vc.modalPresentationStyle = .overFullScreen
-//        present(vc, animated: true)
-        
+
     }
     
 func validateUserInput() {

@@ -3,14 +3,11 @@ import SwiftUI
 
 var selectedDate = Date()
 
-class TimeTableViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource,       UITableViewDelegate, UITableViewDataSource
+class TimeTableViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UITableViewDelegate, UITableViewDataSource, GetEventDetailsDelegate
 {
-
     @IBOutlet weak var monthLable: UILabel!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var collectionView: UICollectionView!
-    @IBOutlet var alertView: UIView!
-    
 
     var totalSquares = [Date]()
     
@@ -104,17 +101,28 @@ class TimeTableViewController: UIViewController, UICollectionViewDelegate, UICol
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellID") as! EventCell
         let event = Event().eventsForDate(date: selectedDate)[indexPath.row]
-        cell.eventLabel.text = event.name + " " + CalendarHelper().timeString(date: event.date)
+        cell.eventLabel.text = event.name + " " + CalendarHelper().timeString(date: event.date) + " to " + CalendarHelper().timeString(date: event.date)
         return cell
     }
     
-    override func viewDidAppear(_ animated: Bool)
-    {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         tableView.reloadData()
     }
+    
     @IBAction func addEventBtn(_ sender: Any) {
-        self.view.addSubview(alertView)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let myAlert = storyboard.instantiateViewController(withIdentifier: "alert") as! AlertViewController
+        myAlert.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
+        myAlert.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+        myAlert.getEventDetailsDelegate = self
+        self.present(myAlert, animated: true, completion: nil)
+    }
+    
+    
+    func sendEventDataToTimeTableVC(event: Event?) {
+        tableView.reloadData()
+
     }
     
 }

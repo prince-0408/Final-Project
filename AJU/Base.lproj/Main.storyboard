@@ -632,44 +632,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="761"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Events" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2b-wx-0wE">
-                                <rect key="frame" x="139" y="44" width="111.66666666666669" height="46.666666666666657"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Events" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2b-wx-0wE">
+                                <rect key="frame" x="139.33333333333334" y="44" width="111.66666666666666" height="46.666666666666657"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46.670000000000002" id="MgG-KJ-M6M"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="40"/>
                                 <color key="textColor" red="0.023159005569999998" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rIG-KV-xk7">
-                                <rect key="frame" x="0.0" y="263" width="390" height="586"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rIG-KV-xk7">
+                                <rect key="frame" x="0.0" y="263" width="390" height="580"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IPn-e9-7lj">
-                                        <rect key="frame" x="16" y="25" width="358" height="114"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4M5-9i-Gao">
-                                                <rect key="frame" x="0.0" y="0.0" width="358" height="114"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="40"/>
-                                                <state key="normal" title="Show Events ">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="showUpcomingEvents:" destination="PbS-c4-9fD" eventType="touchUpInside" id="DSo-dz-c93"/>
-                                                    <segue destination="237-Cv-Jhu" kind="show" id="gsw-hX-akY"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </view>
+                                    <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RhH-3K-GLh">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="580"/>
+                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <wkWebViewConfiguration key="configuration">
+                                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                            <wkPreferences key="preferences"/>
+                                        </wkWebViewConfiguration>
+                                    </wkWebView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="RhH-3K-GLh" firstAttribute="leading" secondItem="rIG-KV-xk7" secondAttribute="leading" id="UTp-IZ-xEM"/>
+                                    <constraint firstAttribute="bottom" secondItem="RhH-3K-GLh" secondAttribute="bottom" id="dXY-Dt-btf"/>
+                                    <constraint firstAttribute="trailing" secondItem="RhH-3K-GLh" secondAttribute="trailing" id="g5v-OU-VeL"/>
+                                    <constraint firstItem="RhH-3K-GLh" firstAttribute="top" secondItem="rIG-KV-xk7" secondAttribute="top" id="wS5-Wn-qzl"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="20"/>
@@ -679,19 +669,30 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WAq-Wv-fUy"/>
                         <color key="backgroundColor" red="0.08235294118" green="0.50196078430000002" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="rIG-KV-xk7" secondAttribute="bottom" constant="-82" id="Amh-1K-rGa"/>
+                            <constraint firstItem="rIG-KV-xk7" firstAttribute="top" secondItem="h2b-wx-0wE" secondAttribute="bottom" constant="172.33000000000001" id="GYZ-iZ-Cje"/>
+                            <constraint firstItem="h2b-wx-0wE" firstAttribute="centerX" secondItem="CR4-Ui-ver" secondAttribute="centerX" id="LhF-De-At2"/>
+                            <constraint firstItem="rIG-KV-xk7" firstAttribute="leading" secondItem="WAq-Wv-fUy" secondAttribute="leading" id="WNj-mJ-tH3"/>
+                            <constraint firstItem="h2b-wx-0wE" firstAttribute="top" secondItem="CR4-Ui-ver" secondAttribute="top" constant="44" id="hKq-vy-c0V"/>
+                            <constraint firstItem="rIG-KV-xk7" firstAttribute="trailing" secondItem="WAq-Wv-fUy" secondAttribute="trailing" id="nX1-ex-5L1"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="N4A-fp-E86"/>
+                    <connections>
+                        <outlet property="webView" destination="RhH-3K-GLh" id="1h9-Y7-G28"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zu0-55-Cva" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5929.2307692307686" y="1012.3222748815166"/>
+            <point key="canvasLocation" x="5927.6923076923076" y="1012.3222748815166"/>
         </scene>
         <!--Upcoming Event View Controller-->
         <scene sceneID="igP-JK-aFK">
             <objects>
                 <viewController storyboardIdentifier="upcomingEvent" id="237-Cv-Jhu" customClass="UpcomingEventViewController" customModule="AJU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sTO-5g-wDe">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="761"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YUa-z1-tfV">
@@ -1584,7 +1585,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Jh5-JB-0Cz"/>
+        <segue reference="cuX-NB-Pcs"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="add-users" width="512" height="512"/>

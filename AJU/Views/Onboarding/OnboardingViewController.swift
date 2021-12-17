@@ -30,7 +30,7 @@ class OnboardingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if(!UserDefaults.standard.isRegistered()) {
+        if(UserDefaults.standard.isRegistered()) {
             //Show Login Screen
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc = storyboard.instantiateViewController(identifier: "SignUp")

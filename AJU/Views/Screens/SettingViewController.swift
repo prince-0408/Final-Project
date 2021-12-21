@@ -1,9 +1,4 @@
-//
-//  SettingViewController.swift
-//  AJU
-//
-//  Created by Anand Yadav on 25/10/21.
-//
+
 
 import UIKit
 

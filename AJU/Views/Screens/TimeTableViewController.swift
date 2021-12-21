@@ -118,11 +118,7 @@ class TimeTableViewController: UIViewController, UICollectionViewDelegate, UICol
         myAlert.getEventDetailsDelegate = self
         self.present(myAlert, animated: true, completion: nil)
     }
-    
-    
     func sendEventDataToTimeTableVC(event: Event?) {
         tableView.reloadData()
-
     }
-    
 }

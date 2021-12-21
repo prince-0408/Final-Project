@@ -1,9 +1,4 @@
-//
-//  SignUpViewController.swift
-//  AJU
-//
-//  Created by Anand Yadav on 21/10/21.
-//
+
 
 import UIKit
 import FirebaseAuth

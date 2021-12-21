@@ -1,9 +1,3 @@
-//
-//  EventsViewController.swift
-//  AJU
-//
-//  Created by Anand Yadav on 25/10/21.
-//
 
 import UIKit
 import WebKit
@@ -15,7 +9,6 @@ class EventsViewController: UIViewController {
         super.viewDidLoad()
         let url = URL(string: "https://arkajainuniversity.ac.in/our-campus/fests-functions-at-aju/")
         webView.load(URLRequest(url: url!))
-        // Do any additional setup after loading the view.
     }
    
     @IBAction func showUpcomingEvents(_ sender: UIButton) {

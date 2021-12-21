@@ -1,9 +1,3 @@
-//
-//  AlertViewController.swift
-//  AJU
-//
-//  Created by Anand Yadav on 15/12/21.
-//
 
 import UIKit
 extension String {

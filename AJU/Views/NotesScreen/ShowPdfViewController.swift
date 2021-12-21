@@ -1,9 +1,4 @@
-//
-//  ShowPdfViewController.swift
-//  AJU
-//
-//  Created by Anand Yadav on 29/10/21.
-//
+
 
 import UIKit
 

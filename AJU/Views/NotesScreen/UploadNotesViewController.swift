@@ -1,9 +1,4 @@
-//
-//  UploadNotesViewController.swift
-//  AJU
-//
-//  Created by Anand Yadav on 05/11/21.
-//
+
 
 import UIKit
 import DropDown

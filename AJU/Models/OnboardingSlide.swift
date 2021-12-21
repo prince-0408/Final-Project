@@ -1,9 +1,4 @@
-//
-//  OnboardingSlide.swift
-//  AJU
-//
-//  Created by Anand Yadav on 20/10/21.
-//
+
 
 import UIKit
 

@@ -24,6 +24,7 @@
 		9D13576C2726CFBA00C7F6A9 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */; };
 		9D13576E2726CFFB00C7F6A9 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576D2726CFFB00C7F6A9 /* EventsViewController.swift */; };
 		9D1357712726EF9500C7F6A9 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1357702726EF9500C7F6A9 /* SettingViewController.swift */; };
+		9D718E7F276D212000EFE144 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D718E7E276D212000EFE144 /* CalendarHelper.swift */; };
 		9D793792273F938700CFC8A7 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D793791273F938700CFC8A7 /* ForgotPasswordViewController.swift */; };
 		9D793795273F943600CFC8A7 /* DetailsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D793794273F943600CFC8A7 /* DetailsScreenViewController.swift */; };
 		9D81D41B2735773C00E806D3 /* UploadNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D81D41A2735773B00E806D3 /* UploadNotesViewController.swift */; };
@@ -32,7 +33,6 @@
 		9DC9819327672999001B4F96 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC9819227672999001B4F96 /* Extension.swift */; };
 		9DC9819A27673218001B4F96 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC9819927673218001B4F96 /* ProgressHUD.swift */; };
 		9DC9819D27675617001B4F96 /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9DC9819C27675617001B4F96 /* CalendarKit */; };
-		9DC981A7276858E3001B4F96 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC981A6276858E3001B4F96 /* CalendarHelper.swift */; };
 		9DC981A927685D17001B4F96 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC981A827685D17001B4F96 /* CalendarCell.swift */; };
 		9DC981AF27686A86001B4F96 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC981AE27686A86001B4F96 /* EventCell.swift */; };
 		9DC981B127687A32001B4F96 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC981B027687A32001B4F96 /* Event.swift */; };
@@ -63,6 +63,7 @@
 		9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		9D13576D2726CFFB00C7F6A9 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		9D1357702726EF9500C7F6A9 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		9D718E7E276D212000EFE144 /* CalendarHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 		9D793791273F938700CFC8A7 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		9D793794273F943600CFC8A7 /* DetailsScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreenViewController.swift; sourceTree = "<group>"; };
 		9D81D41A2735773B00E806D3 /* UploadNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadNotesViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		9DB3D7A32728850D00D5FEF4 /* UpcomingEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventViewController.swift; sourceTree = "<group>"; };
 		9DC9819227672999001B4F96 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		9DC9819927673218001B4F96 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
-		9DC981A6276858E3001B4F96 /* CalendarHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarHelper.swift; path = ../../../Desktop/CalendarHelper.swift; sourceTree = "<group>"; };
 		9DC981A827685D17001B4F96 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		9DC981AE27686A86001B4F96 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		9DC981B027687A32001B4F96 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		9D13570F271FD7F300C7F6A9 /* AJU */ = {
 			isa = PBXGroup;
 			children = (
-				9DC981A6276858E3001B4F96 /* CalendarHelper.swift */,
+				9D718E7E276D212000EFE144 /* CalendarHelper.swift */,
 				9DC98198276731AD001B4F96 /* Custom Views */,
 				9D13572E271FE5A600C7F6A9 /* Extensions */,
 				9D135726271FD87200C7F6A9 /* Views */,
@@ -376,8 +376,8 @@
 				9D1357712726EF9500C7F6A9 /* SettingViewController.swift in Sources */,
 				9D13573D2721C3EB00C7F6A9 /* LogInViewController.swift in Sources */,
 				9DC981A927685D17001B4F96 /* CalendarCell.swift in Sources */,
-				9DC981A7276858E3001B4F96 /* CalendarHelper.swift in Sources */,
 				9D1357662726CF3600C7F6A9 /* HomeViewController.swift in Sources */,
+				9D718E7F276D212000EFE144 /* CalendarHelper.swift in Sources */,
 				9D13576E2726CFFB00C7F6A9 /* EventsViewController.swift in Sources */,
 				9DC981B5276A67C2001B4F96 /* AlertViewController.swift in Sources */,
 				9D135730271FE5DF00C7F6A9 /* UIView+Extension.swift in Sources */,

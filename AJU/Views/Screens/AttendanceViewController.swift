@@ -2,7 +2,7 @@
 
 import UIKit
 
-class AttendanceViewController: UIViewController {
+class ResultViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

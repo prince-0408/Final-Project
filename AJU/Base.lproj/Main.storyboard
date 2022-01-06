@@ -722,10 +722,10 @@
             </objects>
             <point key="canvasLocation" x="3197" y="-659"/>
         </scene>
-        <!--Attendance View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="CDG-vC-VyZ">
             <objects>
-                <viewController id="YRE-2I-SHW" customClass="AttendanceViewController" customModule="AJU" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YRE-2I-SHW" customClass="ResultViewController" customModule="AJU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fi5-sa-f8O">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="761"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1550,13 +1550,11 @@
             </objects>
             <point key="canvasLocation" x="5000" y="1012.3222748815166"/>
         </scene>
-        <!--Attendance-->
+        <!--Result-->
         <scene sceneID="60U-0z-QGu">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="51h-u4-JVK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Attendance" image="chart.bar.xaxis" catalog="system" id="Ix4-wd-Ffb">
-                        <color key="badgeColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="Result" image="chart.bar.fill" catalog="system" id="Ix4-wd-Ffb"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1g5-rJ-n7T">
                         <rect key="frame" x="0.0" y="44" width="390" height="44"/>
@@ -1857,14 +1855,14 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <datePicker contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Cn5-mt-eG1">
-                                        <rect key="frame" x="33" y="132" width="90" height="39"/>
+                                        <rect key="frame" x="33" y="131.66666666666669" width="90" height="39"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="39" id="ceu-nl-RYo"/>
                                             <constraint firstAttribute="width" constant="90" id="wC2-7h-5QL"/>
                                         </constraints>
                                     </datePicker>
                                     <datePicker contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="m1Y-QN-a3K">
-                                        <rect key="frame" x="174" y="131" width="90" height="39"/>
+                                        <rect key="frame" x="174" y="131.33333333333331" width="90" height="39"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="90" id="5k5-tJ-lKE"/>
                                             <constraint firstAttribute="height" constant="39" id="aCL-L8-cNH"/>
@@ -1957,7 +1955,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Jh5-JB-0Cz"/>
-        <segue reference="fZq-nv-TfP"/>
+        <segue reference="EMI-z7-87e"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="add-users" width="512" height="512"/>
@@ -1965,7 +1963,7 @@
         <image name="arrowshape.turn.up.left.circle.fill" catalog="system" width="128" height="121"/>
         <image name="arrowshape.turn.up.right.circle.fill" catalog="system" width="128" height="121"/>
         <image name="calendar.badge.plus" catalog="system" width="128" height="108"/>
-        <image name="chart.bar.xaxis" catalog="system" width="128" height="98"/>
+        <image name="chart.bar.fill" catalog="system" width="128" height="92"/>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
         <image name="engineer" width="512" height="512"/>
         <image name="event" width="512" height="512"/>

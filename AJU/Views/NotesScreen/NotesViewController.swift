@@ -1,5 +1,3 @@
-
-
 import UIKit
 import DropDown
 
@@ -12,7 +10,6 @@ class NotesViewController: UIViewController {
     @IBOutlet weak var vsDropDown: UIView!
     @IBOutlet weak var lblTitle2: UILabel!
     
-
     let dropDown = DropDown()
     let CourseArray = ["Btech", "POLY", "BCA"]
     let dropDown1 = DropDown()
@@ -57,17 +54,10 @@ class NotesViewController: UIViewController {
     }
     
     @IBAction func showPdf(_ sender: Any) {
-        
-//            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//            let vc = storyboard.instantiateViewController(identifier: "showPdf")
-//            vc.modalPresentationStyle = .overFullScreen
-//            present(vc, animated: true)
+
     }
     @IBAction func UploadPdf(_ sender: Any) {
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let vc = storyboard.instantiateViewController(identifier: "uploadNotes")
-//        vc.modalPresentationStyle = .overFullScreen
-//        present(vc, animated: true)
+
     }
     
     @IBAction func ShowCoursesOption(_ sender:Any) {

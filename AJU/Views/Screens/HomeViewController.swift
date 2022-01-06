@@ -1,8 +1,11 @@
 
 import UIKit
+import MBCircularProgressBar
 
 class HomeViewController: UIViewController {
-
+    
+    @IBOutlet weak var progressView: MBCircularProgressBarView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -16,4 +19,11 @@ class HomeViewController: UIViewController {
 //        vc.modalPresentationStyle = .overFullScreen
 //       present(vc, animated: true)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        UIView.animate(withDuration: 10) {
+            self.progressView.value = 50
+        }
+    }
+    
 }

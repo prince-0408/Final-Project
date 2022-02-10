@@ -2,19 +2,26 @@
 
 import UIKit
 import SwiftUI
+import Lottie
 
 
 class LogInViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
     
+    
+    @IBOutlet weak var animationView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        lottieAnimation()
+        
     }
     
     @IBAction func loginTapped(_ sender: Any) {
         ProgressHUD.show("Loading")
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
             ProgressHUD.dismiss()
         }
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -25,15 +32,20 @@ class LogInViewController: UIViewController {
     }
     
     @IBAction func CreateAccount(_ sender: Any) {
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let vc = storyboard.instantiateViewController(identifier: "SignUp")
-//        vc.modalPresentationStyle = .overFullScreen
-//        present(vc, animated: true)
+
     }
     @IBAction func forgotPasswordTapped(_ sender: Any) {
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let vc = storyboard.instantiateViewController(identifier: "forgotPwd")
-//        vc.modalPresentationStyle = .overFullScreen
-//        present(vc, animated: true)
+
     }
+    
+    func lottieAnimation() {
+        
+        let animationview = AnimationView(name: "login")
+        animationview.frame = CGRect(x: 0, y: 0, width: 390, height: 295)
+        animationview.contentMode = .scaleAspectFit
+        view.addSubview(animationview)
+        animationview.play()
+        animationview.loopMode = .loop
+    }
+    
 }

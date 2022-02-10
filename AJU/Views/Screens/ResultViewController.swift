@@ -2,11 +2,14 @@
 
 import UIKit
 
-class DetailsScreenViewController: UIViewController {
+class ResultViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+        
     }
-
+    
 }

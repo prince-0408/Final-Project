@@ -8,5 +8,6 @@ target 'AJU' do
   # Pods for AJU
 pod 'DropDown'
 pod "MBCircularProgressBar"
+pod 'CardSlider'
 
 end

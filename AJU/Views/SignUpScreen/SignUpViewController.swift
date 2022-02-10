@@ -5,10 +5,13 @@ import FirebaseAuth
 import Firebase
 import nanopb
 import SwiftUI
+import Lottie
 
 
 
 class SignUpViewController: UIViewController {
+    
+    
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var password: UITextField!
@@ -17,8 +20,13 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var academicYear: UITextField!
     @IBOutlet weak var rollNumber: UITextField!
     
+    @IBOutlet weak var animationView: AnimationView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        lottieAnimation()
+        
     }
     @IBAction func SignUpTapped(_ sender: Any) {
        
@@ -43,5 +51,15 @@ func validateUserInput() {
         UserDefaults.standard.setRegistered(value: true)
         
         }
+    }
+    func lottieAnimation() {
+        
+        let animationview = AnimationView(name: "team")
+        animationview.frame = CGRect(x: 0, y: 0, width: 390, height: 295)
+        //animationview.center = self.view.center
+        animationview.contentMode = .scaleAspectFit
+        view.addSubview(animationview)
+        animationview.play()
+        animationview.loopMode = .loop
     }
 }

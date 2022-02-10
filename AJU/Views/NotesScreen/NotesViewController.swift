@@ -1,7 +1,10 @@
 import UIKit
 import DropDown
+import Lottie
 
 class NotesViewController: UIViewController {
+    
+    @IBOutlet weak var animationView: AnimationView!
     
     @IBOutlet weak var vmDropDown: UIView!
     @IBOutlet weak var lblTitle: UILabel!
@@ -18,8 +21,11 @@ class NotesViewController: UIViewController {
     let SemesterArray = ["First Semester", "Second Semester", "Fourth Semester", "Fifth Semester", "Sixth Semester", "Seventh Semester", "Eighth Semester", "Syllabus"]
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        lottieAnimation()
         
         lblTitle.text = "Select Course"
         dropDown.anchorView = vmDropDown
@@ -69,7 +75,16 @@ class NotesViewController: UIViewController {
     @IBAction func ShowSemesterOption(_ sender: Any) {
         dropDown2.show()
     }
-    
+    func lottieAnimation() {
+        
+        let animationview = AnimationView(name: "content-writing")
+        animationview.frame = CGRect(x: 0, y: 0, width: 390, height: 295)
+        //animationview.center = self.view.center
+        animationview.contentMode = .scaleAspectFit
+        view.addSubview(animationview)
+        animationview.play()
+        animationview.loopMode = .loop
+    }
 }
 
 

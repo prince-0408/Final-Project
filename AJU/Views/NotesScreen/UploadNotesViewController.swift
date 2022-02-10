@@ -2,8 +2,13 @@
 
 import UIKit
 import DropDown
+import Lottie
 
 class UploadNotesViewController: UIViewController {
+    
+    @IBOutlet weak var animationView: AnimationView!
+    
+    
     @IBOutlet weak var vcDropDown: UIView!
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var vbDropDown: UIView!
@@ -21,6 +26,8 @@ class UploadNotesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        lottieAnimation()
         
         lblTitle.text = "Select Course"
         dropDown.anchorView = vcDropDown
@@ -69,6 +76,15 @@ class UploadNotesViewController: UIViewController {
     @IBAction func SelectSemesterOption(_ sender: Any) {
         dropDown2.show()
     }
-    
+    func lottieAnimation() {
+        
+        let animationview = AnimationView(name: "validate-button")
+        animationview.frame = CGRect(x: 0, y: 0, width: 390, height: 295)
+        //animationview.center = self.view.center
+        animationview.contentMode = .scaleAspectFit
+        view.addSubview(animationview)
+        animationview.play()
+        animationview.loopMode = .loop
+    }
 
 }

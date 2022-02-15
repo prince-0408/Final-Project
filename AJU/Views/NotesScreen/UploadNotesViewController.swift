@@ -78,8 +78,8 @@ class UploadNotesViewController: UIViewController {
     }
     func lottieAnimation() {
         
-        let animationview = AnimationView(name: "validate-button")
-        animationview.frame = CGRect(x: 0, y: 0, width: 390, height: 295)
+        let animationview = AnimationView(name: "completed-task-files")
+        animationview.frame = CGRect(x: 0, y: 10, width: 390, height: 295)
         //animationview.center = self.view.center
         animationview.contentMode = .scaleAspectFit
         view.addSubview(animationview)

@@ -1,11 +1,14 @@
 
-
+import AuthenticationServices
 import UIKit
 import SwiftUI
 import Lottie
 
 
 class LogInViewController: UIViewController {
+    
+    
+    @IBOutlet weak var mainView: UIView!
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
     
@@ -14,7 +17,6 @@ class LogInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         lottieAnimation()
         
     }

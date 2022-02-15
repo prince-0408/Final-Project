@@ -7,6 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1726147927BAC8D600049F4B /* girl-studying-on-laptop.json in Resources */ = {isa = PBXBuildFile; fileRef = 1726147427BAC8D500049F4B /* girl-studying-on-laptop.json */; };
+		1726147A27BAC8D600049F4B /* back-to-school.json in Resources */ = {isa = PBXBuildFile; fileRef = 1726147527BAC8D500049F4B /* back-to-school.json */; };
+		1726147B27BAC8D600049F4B /* data-inform-illustration-animation-json.json in Resources */ = {isa = PBXBuildFile; fileRef = 1726147627BAC8D500049F4B /* data-inform-illustration-animation-json.json */; };
+		1726147C27BAC8D600049F4B /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 1726147727BAC8D500049F4B /* success.json */; };
+		1726147D27BAC8D600049F4B /* calendar-event.json in Resources */ = {isa = PBXBuildFile; fileRef = 1726147827BAC8D500049F4B /* calendar-event.json */; };
+		173A8C7727B823F0002D1AAE /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173A8C7627B823F0002D1AAE /* Events.swift */; };
+		173A8C7D27B8280F002D1AAE /* EventCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173A8C7C27B8280F002D1AAE /* EventCollectionView.swift */; };
+		173A8CAE27BAB277002D1AAE /* helloASA.json in Resources */ = {isa = PBXBuildFile; fileRef = 173A8CA827BAB276002D1AAE /* helloASA.json */; };
+		17B8A93027B6592A00D0D7CA /* validate-button.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91327B6592300D0D7CA /* validate-button.json */; };
+		17B8A93127B6592A00D0D7CA /* event-venue.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91427B6592300D0D7CA /* event-venue.json */; };
+		17B8A93227B6592A00D0D7CA /* designer-graphic.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91527B6592300D0D7CA /* designer-graphic.json */; };
+		17B8A93327B6592A00D0D7CA /* content-writing.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91627B6592300D0D7CA /* content-writing.json */; };
+		17B8A93427B6592A00D0D7CA /* notes-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91727B6592400D0D7CA /* notes-animation.json */; };
+		17B8A93527B6592A00D0D7CA /* business-illustration.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91827B6592400D0D7CA /* business-illustration.json */; };
+		17B8A93627B6592A00D0D7CA /* graphic-web-designer.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91927B6592400D0D7CA /* graphic-web-designer.json */; };
+		17B8A93727B6592A00D0D7CA /* welcome.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91A27B6592400D0D7CA /* welcome.json */; };
+		17B8A93827B6592A00D0D7CA /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91C27B6592500D0D7CA /* login.json */; };
+		17B8A93927B6592A00D0D7CA /* post.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91D27B6592500D0D7CA /* post.json */; };
+		17B8A93A27B6592A00D0D7CA /* team.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91E27B6592500D0D7CA /* team.json */; };
+		17B8A93B27B6592A00D0D7CA /* Hello.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91F27B6592500D0D7CA /* Hello.json */; };
+		17B8A93C27B6592A00D0D7CA /* making-notes.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92027B6592500D0D7CA /* making-notes.json */; };
+		17B8A93D27B6592A00D0D7CA /* human-experience.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92127B6592600D0D7CA /* human-experience.json */; };
+		17B8A93E27B6592A00D0D7CA /* processing-your-orders.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92227B6592600D0D7CA /* processing-your-orders.json */; };
+		17B8A93F27B6592A00D0D7CA /* signup.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92327B6592600D0D7CA /* signup.json */; };
+		17B8A94027B6592A00D0D7CA /* secure-login.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92427B6592600D0D7CA /* secure-login.json */; };
+		17B8A94127B6592A00D0D7CA /* analytics-poky-heads.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92527B6592700D0D7CA /* analytics-poky-heads.json */; };
+		17B8A94227B6592A00D0D7CA /* online-exam.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92627B6592800D0D7CA /* online-exam.json */; };
+		17B8A94327B6592A00D0D7CA /* forgot-password.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92727B6592800D0D7CA /* forgot-password.json */; };
+		17B8A94427B6592A00D0D7CA /* Dashboard.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92827B6592800D0D7CA /* Dashboard.json */; };
+		17B8A94527B6592A00D0D7CA /* login-screen.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92927B6592800D0D7CA /* login-screen.json */; };
+		17B8A94627B6592A00D0D7CA /* change-colors-at-great-design.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92A27B6592900D0D7CA /* change-colors-at-great-design.json */; };
+		17B8A94727B6592A00D0D7CA /* business-idea-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92B27B6592900D0D7CA /* business-idea-animation.json */; };
+		17B8A94827B6592A00D0D7CA /* completed-task-files.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92C27B6592900D0D7CA /* completed-task-files.json */; };
+		17B8A94927B6592A00D0D7CA /* hero-image-masterlanding.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92E27B6592900D0D7CA /* hero-image-masterlanding.json */; };
+		17B8A94A27B6592A00D0D7CA /* loud-speaker-alert.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A92F27B6592A00D0D7CA /* loud-speaker-alert.json */; };
 		641331FE1E096027DAC0E8AB /* Pods_AJU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77578D1A83AF4C312BCBF6B /* Pods_AJU.framework */; };
 		9D135711271FD7F300C7F6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D135710271FD7F300C7F6A9 /* AppDelegate.swift */; };
 		9D135713271FD7F300C7F6A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D135712271FD7F300C7F6A9 /* SceneDelegate.swift */; };
@@ -23,35 +58,6 @@
 		9D1357692726CF9300C7F6A9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1357682726CF9300C7F6A9 /* ResultViewController.swift */; };
 		9D13576C2726CFBA00C7F6A9 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */; };
 		9D19C09B27A6D76A00CCF9F4 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9D19C09A27A6D76A00CCF9F4 /* Lottie */; };
-		9D19C0BC27A6DB6C00CCF9F4 /* hero-image-masterlanding.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0A127A6DB6A00CCF9F4 /* hero-image-masterlanding.json */; };
-		9D19C0BD27A6DB6C00CCF9F4 /* team.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0A227A6DB6A00CCF9F4 /* team.json */; };
-		9D19C0BE27A6DB6C00CCF9F4 /* loud-speaker-alert.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0A327A6DB6A00CCF9F4 /* loud-speaker-alert.json */; };
-		9D19C0BF27A6DB6C00CCF9F4 /* event-venue.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0A427A6DB6A00CCF9F4 /* event-venue.json */; };
-		9D19C0C027A6DB6C00CCF9F4 /* graphic-web-designer.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0A527A6DB6A00CCF9F4 /* graphic-web-designer.json */; };
-		9D19C0C127A6DB6C00CCF9F4 /* business-idea-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0A627A6DB6A00CCF9F4 /* business-idea-animation.json */; };
-		9D19C0C227A6DB6C00CCF9F4 /* signup.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0A727A6DB6B00CCF9F4 /* signup.json */; };
-		9D19C0C327A6DB6C00CCF9F4 /* completed-task-files.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0A827A6DB6B00CCF9F4 /* completed-task-files.json */; };
-		9D19C0C427A6DB6C00CCF9F4 /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0A927A6DB6B00CCF9F4 /* login.json */; };
-		9D19C0C527A6DB6C00CCF9F4 /* Dashboard.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0AA27A6DB6B00CCF9F4 /* Dashboard.json */; };
-		9D19C0C627A6DB6C00CCF9F4 /* post.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0AB27A6DB6B00CCF9F4 /* post.json */; };
-		9D19C0C727A6DB6C00CCF9F4 /* content-writing.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0AC27A6DB6B00CCF9F4 /* content-writing.json */; };
-		9D19C0C827A6DB6C00CCF9F4 /* analytics-poky-heads.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0AD27A6DB6B00CCF9F4 /* analytics-poky-heads.json */; };
-		9D19C0C927A6DB6C00CCF9F4 /* welcome.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0AE27A6DB6B00CCF9F4 /* welcome.json */; };
-		9D19C0CA27A6DB6C00CCF9F4 /* forgot-password.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0AF27A6DB6B00CCF9F4 /* forgot-password.json */; };
-		9D19C0CB27A6DB6C00CCF9F4 /* business-illustration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0B027A6DB6B00CCF9F4 /* business-illustration.json */; };
-		9D19C0CC27A6DB6C00CCF9F4 /* secure-login.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0B127A6DB6B00CCF9F4 /* secure-login.json */; };
-		9D19C0CD27A6DB6C00CCF9F4 /* processing-your-orders.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0B227A6DB6B00CCF9F4 /* processing-your-orders.json */; };
-		9D19C0CE27A6DB6C00CCF9F4 /* designer-graphic.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0B327A6DB6B00CCF9F4 /* designer-graphic.json */; };
-		9D19C0CF27A6DB6C00CCF9F4 /* making-notes.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0B427A6DB6C00CCF9F4 /* making-notes.json */; };
-		9D19C0D027A6DB6C00CCF9F4 /* validate-button.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0B527A6DB6C00CCF9F4 /* validate-button.json */; };
-		9D19C0D127A6DB6C00CCF9F4 /* online-exam.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0B627A6DB6C00CCF9F4 /* online-exam.json */; };
-		9D19C0D227A6DB6C00CCF9F4 /* change-colors-at-great-design.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0B727A6DB6C00CCF9F4 /* change-colors-at-great-design.json */; };
-		9D19C0D327A6DB6C00CCF9F4 /* notes-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0B827A6DB6C00CCF9F4 /* notes-animation.json */; };
-		9D19C0D427A6DB6C00CCF9F4 /* Hello.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0B927A6DB6C00CCF9F4 /* Hello.json */; };
-		9D19C0D527A6DB6C00CCF9F4 /* human-experience.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0BA27A6DB6C00CCF9F4 /* human-experience.json */; };
-		9D19C0D627A6DB6C00CCF9F4 /* login-screen.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C0BB27A6DB6C00CCF9F4 /* login-screen.json */; };
-		9D19C16B27A98E3A00CCF9F4 /* calendar.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C16A27A98E3A00CCF9F4 /* calendar.json */; };
-		9D19C16D27A98EC300CCF9F4 /* a-calendar.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C16C27A98EC300CCF9F4 /* a-calendar.json */; };
 		9D19C17E27AD1E4900CCF9F4 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C17D27AD1E4900CCF9F4 /* EventViewController.swift */; };
 		9D718E7F276D212000EFE144 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D718E7E276D212000EFE144 /* CalendarHelper.swift */; };
 		9D793792273F938700CFC8A7 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D793791273F938700CFC8A7 /* ForgotPasswordViewController.swift */; };
@@ -73,6 +79,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1726147427BAC8D500049F4B /* girl-studying-on-laptop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "girl-studying-on-laptop.json"; sourceTree = "<group>"; };
+		1726147527BAC8D500049F4B /* back-to-school.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "back-to-school.json"; sourceTree = "<group>"; };
+		1726147627BAC8D500049F4B /* data-inform-illustration-animation-json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "data-inform-illustration-animation-json.json"; sourceTree = "<group>"; };
+		1726147727BAC8D500049F4B /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		1726147827BAC8D500049F4B /* calendar-event.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "calendar-event.json"; sourceTree = "<group>"; };
+		173A8C7627B823F0002D1AAE /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		173A8C7C27B8280F002D1AAE /* EventCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionView.swift; sourceTree = "<group>"; };
+		173A8CA827BAB276002D1AAE /* helloASA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = helloASA.json; sourceTree = "<group>"; };
+		17B8A8F027B64AAE00D0D7CA /* AJU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AJU.entitlements; sourceTree = "<group>"; };
+		17B8A91327B6592300D0D7CA /* validate-button.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "validate-button.json"; sourceTree = "<group>"; };
+		17B8A91427B6592300D0D7CA /* event-venue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "event-venue.json"; sourceTree = "<group>"; };
+		17B8A91527B6592300D0D7CA /* designer-graphic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "designer-graphic.json"; sourceTree = "<group>"; };
+		17B8A91627B6592300D0D7CA /* content-writing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "content-writing.json"; sourceTree = "<group>"; };
+		17B8A91727B6592400D0D7CA /* notes-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "notes-animation.json"; sourceTree = "<group>"; };
+		17B8A91827B6592400D0D7CA /* business-illustration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "business-illustration.json"; sourceTree = "<group>"; };
+		17B8A91927B6592400D0D7CA /* graphic-web-designer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "graphic-web-designer.json"; sourceTree = "<group>"; };
+		17B8A91A27B6592400D0D7CA /* welcome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = welcome.json; sourceTree = "<group>"; };
+		17B8A91C27B6592500D0D7CA /* login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = login.json; sourceTree = "<group>"; };
+		17B8A91D27B6592500D0D7CA /* post.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = post.json; sourceTree = "<group>"; };
+		17B8A91E27B6592500D0D7CA /* team.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = team.json; sourceTree = "<group>"; };
+		17B8A91F27B6592500D0D7CA /* Hello.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hello.json; sourceTree = "<group>"; };
+		17B8A92027B6592500D0D7CA /* making-notes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "making-notes.json"; sourceTree = "<group>"; };
+		17B8A92127B6592600D0D7CA /* human-experience.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "human-experience.json"; sourceTree = "<group>"; };
+		17B8A92227B6592600D0D7CA /* processing-your-orders.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "processing-your-orders.json"; sourceTree = "<group>"; };
+		17B8A92327B6592600D0D7CA /* signup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = signup.json; sourceTree = "<group>"; };
+		17B8A92427B6592600D0D7CA /* secure-login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "secure-login.json"; sourceTree = "<group>"; };
+		17B8A92527B6592700D0D7CA /* analytics-poky-heads.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "analytics-poky-heads.json"; sourceTree = "<group>"; };
+		17B8A92627B6592800D0D7CA /* online-exam.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "online-exam.json"; sourceTree = "<group>"; };
+		17B8A92727B6592800D0D7CA /* forgot-password.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "forgot-password.json"; sourceTree = "<group>"; };
+		17B8A92827B6592800D0D7CA /* Dashboard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dashboard.json; sourceTree = "<group>"; };
+		17B8A92927B6592800D0D7CA /* login-screen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "login-screen.json"; sourceTree = "<group>"; };
+		17B8A92A27B6592900D0D7CA /* change-colors-at-great-design.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "change-colors-at-great-design.json"; sourceTree = "<group>"; };
+		17B8A92B27B6592900D0D7CA /* business-idea-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "business-idea-animation.json"; sourceTree = "<group>"; };
+		17B8A92C27B6592900D0D7CA /* completed-task-files.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "completed-task-files.json"; sourceTree = "<group>"; };
+		17B8A92E27B6592900D0D7CA /* hero-image-masterlanding.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "hero-image-masterlanding.json"; sourceTree = "<group>"; };
+		17B8A92F27B6592A00D0D7CA /* loud-speaker-alert.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loud-speaker-alert.json"; sourceTree = "<group>"; };
 		9D13570D271FD7F300C7F6A9 /* AJU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D135710271FD7F300C7F6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D135712271FD7F300C7F6A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,35 +131,6 @@
 		9D1357652726CF3600C7F6A9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9D1357682726CF9300C7F6A9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
-		9D19C0A127A6DB6A00CCF9F4 /* hero-image-masterlanding.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "hero-image-masterlanding.json"; path = "../../../../Documents/LottieEffects/hero-image-masterlanding.json"; sourceTree = "<group>"; };
-		9D19C0A227A6DB6A00CCF9F4 /* team.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = team.json; path = ../../../../Documents/LottieEffects/team.json; sourceTree = "<group>"; };
-		9D19C0A327A6DB6A00CCF9F4 /* loud-speaker-alert.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "loud-speaker-alert.json"; path = "../../../../Documents/LottieEffects/loud-speaker-alert.json"; sourceTree = "<group>"; };
-		9D19C0A427A6DB6A00CCF9F4 /* event-venue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "event-venue.json"; path = "../../../../Documents/LottieEffects/event-venue.json"; sourceTree = "<group>"; };
-		9D19C0A527A6DB6A00CCF9F4 /* graphic-web-designer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "graphic-web-designer.json"; path = "../../../../Documents/LottieEffects/graphic-web-designer.json"; sourceTree = "<group>"; };
-		9D19C0A627A6DB6A00CCF9F4 /* business-idea-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "business-idea-animation.json"; path = "../../../../Documents/LottieEffects/business-idea-animation.json"; sourceTree = "<group>"; };
-		9D19C0A727A6DB6B00CCF9F4 /* signup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = signup.json; path = ../../../../Documents/LottieEffects/signup.json; sourceTree = "<group>"; };
-		9D19C0A827A6DB6B00CCF9F4 /* completed-task-files.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "completed-task-files.json"; path = "../../../../Documents/LottieEffects/completed-task-files.json"; sourceTree = "<group>"; };
-		9D19C0A927A6DB6B00CCF9F4 /* login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = login.json; path = ../../../../Documents/LottieEffects/login.json; sourceTree = "<group>"; };
-		9D19C0AA27A6DB6B00CCF9F4 /* Dashboard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Dashboard.json; path = ../../../../Documents/LottieEffects/Dashboard.json; sourceTree = "<group>"; };
-		9D19C0AB27A6DB6B00CCF9F4 /* post.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = post.json; path = ../../../../Documents/LottieEffects/post.json; sourceTree = "<group>"; };
-		9D19C0AC27A6DB6B00CCF9F4 /* content-writing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "content-writing.json"; path = "../../../../Documents/LottieEffects/content-writing.json"; sourceTree = "<group>"; };
-		9D19C0AD27A6DB6B00CCF9F4 /* analytics-poky-heads.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "analytics-poky-heads.json"; path = "../../../../Documents/LottieEffects/analytics-poky-heads.json"; sourceTree = "<group>"; };
-		9D19C0AE27A6DB6B00CCF9F4 /* welcome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = welcome.json; path = ../../../../Documents/LottieEffects/welcome.json; sourceTree = "<group>"; };
-		9D19C0AF27A6DB6B00CCF9F4 /* forgot-password.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "forgot-password.json"; path = "../../../../Documents/LottieEffects/forgot-password.json"; sourceTree = "<group>"; };
-		9D19C0B027A6DB6B00CCF9F4 /* business-illustration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "business-illustration.json"; path = "../../../../Documents/LottieEffects/business-illustration.json"; sourceTree = "<group>"; };
-		9D19C0B127A6DB6B00CCF9F4 /* secure-login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "secure-login.json"; path = "../../../../Documents/LottieEffects/secure-login.json"; sourceTree = "<group>"; };
-		9D19C0B227A6DB6B00CCF9F4 /* processing-your-orders.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "processing-your-orders.json"; path = "../../../../Documents/LottieEffects/processing-your-orders.json"; sourceTree = "<group>"; };
-		9D19C0B327A6DB6B00CCF9F4 /* designer-graphic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "designer-graphic.json"; path = "../../../../Documents/LottieEffects/designer-graphic.json"; sourceTree = "<group>"; };
-		9D19C0B427A6DB6C00CCF9F4 /* making-notes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "making-notes.json"; path = "../../../../Documents/LottieEffects/making-notes.json"; sourceTree = "<group>"; };
-		9D19C0B527A6DB6C00CCF9F4 /* validate-button.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "validate-button.json"; path = "../../../../Documents/LottieEffects/validate-button.json"; sourceTree = "<group>"; };
-		9D19C0B627A6DB6C00CCF9F4 /* online-exam.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "online-exam.json"; path = "../../../../Documents/LottieEffects/online-exam.json"; sourceTree = "<group>"; };
-		9D19C0B727A6DB6C00CCF9F4 /* change-colors-at-great-design.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "change-colors-at-great-design.json"; path = "../../../../Documents/LottieEffects/change-colors-at-great-design.json"; sourceTree = "<group>"; };
-		9D19C0B827A6DB6C00CCF9F4 /* notes-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "notes-animation.json"; path = "../../../../Documents/LottieEffects/notes-animation.json"; sourceTree = "<group>"; };
-		9D19C0B927A6DB6C00CCF9F4 /* Hello.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Hello.json; path = ../../../../Documents/LottieEffects/Hello.json; sourceTree = "<group>"; };
-		9D19C0BA27A6DB6C00CCF9F4 /* human-experience.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "human-experience.json"; path = "../../../../Documents/LottieEffects/human-experience.json"; sourceTree = "<group>"; };
-		9D19C0BB27A6DB6C00CCF9F4 /* login-screen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "login-screen.json"; path = "../../../../Documents/LottieEffects/login-screen.json"; sourceTree = "<group>"; };
-		9D19C16A27A98E3A00CCF9F4 /* calendar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = calendar.json; path = ../../../../Documents/LottieEffects/calendar.json; sourceTree = "<group>"; };
-		9D19C16C27A98EC300CCF9F4 /* a-calendar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "a-calendar.json"; path = "../../../../Documents/LottieEffects/a-calendar.json"; sourceTree = "<group>"; };
 		9D19C17D27AD1E4900CCF9F4 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		9D718E7E276D212000EFE144 /* CalendarHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 		9D793791273F938700CFC8A7 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +167,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		174D5EBD27B53709003D6290 /* LottieEffects */ = {
+			isa = PBXGroup;
+			children = (
+				17B8A92527B6592700D0D7CA /* analytics-poky-heads.json */,
+				17B8A92B27B6592900D0D7CA /* business-idea-animation.json */,
+				17B8A91827B6592400D0D7CA /* business-illustration.json */,
+				17B8A92A27B6592900D0D7CA /* change-colors-at-great-design.json */,
+				17B8A92C27B6592900D0D7CA /* completed-task-files.json */,
+				1726147527BAC8D500049F4B /* back-to-school.json */,
+				1726147827BAC8D500049F4B /* calendar-event.json */,
+				1726147627BAC8D500049F4B /* data-inform-illustration-animation-json.json */,
+				1726147427BAC8D500049F4B /* girl-studying-on-laptop.json */,
+				1726147727BAC8D500049F4B /* success.json */,
+				173A8CA827BAB276002D1AAE /* helloASA.json */,
+				17B8A91627B6592300D0D7CA /* content-writing.json */,
+				17B8A92827B6592800D0D7CA /* Dashboard.json */,
+				17B8A91527B6592300D0D7CA /* designer-graphic.json */,
+				17B8A91427B6592300D0D7CA /* event-venue.json */,
+				17B8A92727B6592800D0D7CA /* forgot-password.json */,
+				17B8A91927B6592400D0D7CA /* graphic-web-designer.json */,
+				17B8A91F27B6592500D0D7CA /* Hello.json */,
+				17B8A92E27B6592900D0D7CA /* hero-image-masterlanding.json */,
+				17B8A92127B6592600D0D7CA /* human-experience.json */,
+				17B8A92927B6592800D0D7CA /* login-screen.json */,
+				17B8A91C27B6592500D0D7CA /* login.json */,
+				17B8A92F27B6592A00D0D7CA /* loud-speaker-alert.json */,
+				17B8A92027B6592500D0D7CA /* making-notes.json */,
+				17B8A91727B6592400D0D7CA /* notes-animation.json */,
+				17B8A92627B6592800D0D7CA /* online-exam.json */,
+				17B8A91D27B6592500D0D7CA /* post.json */,
+				17B8A92227B6592600D0D7CA /* processing-your-orders.json */,
+				17B8A92427B6592600D0D7CA /* secure-login.json */,
+				17B8A92327B6592600D0D7CA /* signup.json */,
+				17B8A91E27B6592500D0D7CA /* team.json */,
+				17B8A91327B6592300D0D7CA /* validate-button.json */,
+				17B8A91A27B6592400D0D7CA /* welcome.json */,
+			);
+			path = LottieEffects;
+			sourceTree = "<group>";
+		};
 		22E01FD902C9DC631074BBED /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,7 +237,8 @@
 		9D13570F271FD7F300C7F6A9 /* AJU */ = {
 			isa = PBXGroup;
 			children = (
-				9D19C0A027A6DB3D00CCF9F4 /* LottieEffect */,
+				17B8A8F027B64AAE00D0D7CA /* AJU.entitlements */,
+				174D5EBD27B53709003D6290 /* LottieEffects */,
 				9DC98198276731AD001B4F96 /* Custom Views */,
 				9D13572E271FE5A600C7F6A9 /* Extensions */,
 				9D135726271FD87200C7F6A9 /* Views */,
@@ -264,44 +318,10 @@
 				9D793791273F938700CFC8A7 /* ForgotPasswordViewController.swift */,
 				9DC981B4276A67C2001B4F96 /* AlertViewController.swift */,
 				9D19C17D27AD1E4900CCF9F4 /* EventViewController.swift */,
+				173A8C7627B823F0002D1AAE /* Events.swift */,
+				173A8C7C27B8280F002D1AAE /* EventCollectionView.swift */,
 			);
 			path = Screens;
-			sourceTree = "<group>";
-		};
-		9D19C0A027A6DB3D00CCF9F4 /* LottieEffect */ = {
-			isa = PBXGroup;
-			children = (
-				9D19C16A27A98E3A00CCF9F4 /* calendar.json */,
-				9D19C16C27A98EC300CCF9F4 /* a-calendar.json */,
-				9D19C0AD27A6DB6B00CCF9F4 /* analytics-poky-heads.json */,
-				9D19C0A627A6DB6A00CCF9F4 /* business-idea-animation.json */,
-				9D19C0B027A6DB6B00CCF9F4 /* business-illustration.json */,
-				9D19C0B727A6DB6C00CCF9F4 /* change-colors-at-great-design.json */,
-				9D19C0A827A6DB6B00CCF9F4 /* completed-task-files.json */,
-				9D19C0AC27A6DB6B00CCF9F4 /* content-writing.json */,
-				9D19C0AA27A6DB6B00CCF9F4 /* Dashboard.json */,
-				9D19C0B327A6DB6B00CCF9F4 /* designer-graphic.json */,
-				9D19C0A427A6DB6A00CCF9F4 /* event-venue.json */,
-				9D19C0AF27A6DB6B00CCF9F4 /* forgot-password.json */,
-				9D19C0A527A6DB6A00CCF9F4 /* graphic-web-designer.json */,
-				9D19C0B927A6DB6C00CCF9F4 /* Hello.json */,
-				9D19C0A127A6DB6A00CCF9F4 /* hero-image-masterlanding.json */,
-				9D19C0BA27A6DB6C00CCF9F4 /* human-experience.json */,
-				9D19C0BB27A6DB6C00CCF9F4 /* login-screen.json */,
-				9D19C0A927A6DB6B00CCF9F4 /* login.json */,
-				9D19C0A327A6DB6A00CCF9F4 /* loud-speaker-alert.json */,
-				9D19C0B427A6DB6C00CCF9F4 /* making-notes.json */,
-				9D19C0B827A6DB6C00CCF9F4 /* notes-animation.json */,
-				9D19C0B627A6DB6C00CCF9F4 /* online-exam.json */,
-				9D19C0AB27A6DB6B00CCF9F4 /* post.json */,
-				9D19C0B227A6DB6B00CCF9F4 /* processing-your-orders.json */,
-				9D19C0B127A6DB6B00CCF9F4 /* secure-login.json */,
-				9D19C0A727A6DB6B00CCF9F4 /* signup.json */,
-				9D19C0A227A6DB6A00CCF9F4 /* team.json */,
-				9D19C0B527A6DB6C00CCF9F4 /* validate-button.json */,
-				9D19C0AE27A6DB6B00CCF9F4 /* welcome.json */,
-			);
-			path = LottieEffect;
 			sourceTree = "<group>";
 		};
 		9D19C17C27AD19CA00CCF9F4 /* CalendarView */ = {
@@ -413,39 +433,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B8A93727B6592A00D0D7CA /* welcome.json in Resources */,
+				17B8A94627B6592A00D0D7CA /* change-colors-at-great-design.json in Resources */,
+				17B8A93327B6592A00D0D7CA /* content-writing.json in Resources */,
+				17B8A94427B6592A00D0D7CA /* Dashboard.json in Resources */,
+				1726147927BAC8D600049F4B /* girl-studying-on-laptop.json in Resources */,
+				17B8A93A27B6592A00D0D7CA /* team.json in Resources */,
+				1726147A27BAC8D600049F4B /* back-to-school.json in Resources */,
 				9D13571D271FD80400C7F6A9 /* LaunchScreen.storyboard in Resources */,
-				9D19C0D227A6DB6C00CCF9F4 /* change-colors-at-great-design.json in Resources */,
-				9D19C0BE27A6DB6C00CCF9F4 /* loud-speaker-alert.json in Resources */,
-				9D19C0C327A6DB6C00CCF9F4 /* completed-task-files.json in Resources */,
-				9D19C0C227A6DB6C00CCF9F4 /* signup.json in Resources */,
-				9D19C0C527A6DB6C00CCF9F4 /* Dashboard.json in Resources */,
-				9D19C0C627A6DB6C00CCF9F4 /* post.json in Resources */,
-				9D19C0D527A6DB6C00CCF9F4 /* human-experience.json in Resources */,
-				9D19C0CF27A6DB6C00CCF9F4 /* making-notes.json in Resources */,
-				9D19C0D627A6DB6C00CCF9F4 /* login-screen.json in Resources */,
-				9D19C0D427A6DB6C00CCF9F4 /* Hello.json in Resources */,
-				9D19C0BF27A6DB6C00CCF9F4 /* event-venue.json in Resources */,
-				9D19C0D027A6DB6C00CCF9F4 /* validate-button.json in Resources */,
+				17B8A93927B6592A00D0D7CA /* post.json in Resources */,
+				17B8A94327B6592A00D0D7CA /* forgot-password.json in Resources */,
+				17B8A94527B6592A00D0D7CA /* login-screen.json in Resources */,
 				9DF1F42D272FE51700CE1AD6 /* GoogleService-Info.plist in Resources */,
-				9D19C0C727A6DB6C00CCF9F4 /* content-writing.json in Resources */,
-				9D19C16B27A98E3A00CCF9F4 /* calendar.json in Resources */,
-				9D19C0BD27A6DB6C00CCF9F4 /* team.json in Resources */,
-				9D19C0CA27A6DB6C00CCF9F4 /* forgot-password.json in Resources */,
-				9D19C16D27A98EC300CCF9F4 /* a-calendar.json in Resources */,
-				9D19C0C027A6DB6C00CCF9F4 /* graphic-web-designer.json in Resources */,
-				9D19C0CD27A6DB6C00CCF9F4 /* processing-your-orders.json in Resources */,
-				9D19C0BC27A6DB6C00CCF9F4 /* hero-image-masterlanding.json in Resources */,
-				9D19C0CE27A6DB6C00CCF9F4 /* designer-graphic.json in Resources */,
-				9D19C0C927A6DB6C00CCF9F4 /* welcome.json in Resources */,
-				9D19C0C427A6DB6C00CCF9F4 /* login.json in Resources */,
-				9D19C0C827A6DB6C00CCF9F4 /* analytics-poky-heads.json in Resources */,
-				9D19C0CC27A6DB6C00CCF9F4 /* secure-login.json in Resources */,
-				9D19C0D327A6DB6C00CCF9F4 /* notes-animation.json in Resources */,
-				9D19C0D127A6DB6C00CCF9F4 /* online-exam.json in Resources */,
-				9D19C0C127A6DB6C00CCF9F4 /* business-idea-animation.json in Resources */,
-				9D19C0CB27A6DB6C00CCF9F4 /* business-illustration.json in Resources */,
+				17B8A93B27B6592A00D0D7CA /* Hello.json in Resources */,
+				17B8A94127B6592A00D0D7CA /* analytics-poky-heads.json in Resources */,
+				17B8A93D27B6592A00D0D7CA /* human-experience.json in Resources */,
+				17B8A93127B6592A00D0D7CA /* event-venue.json in Resources */,
 				9D13571A271FD80400C7F6A9 /* Assets.xcassets in Resources */,
+				17B8A94A27B6592A00D0D7CA /* loud-speaker-alert.json in Resources */,
+				17B8A94827B6592A00D0D7CA /* completed-task-files.json in Resources */,
+				17B8A93027B6592A00D0D7CA /* validate-button.json in Resources */,
+				17B8A93627B6592A00D0D7CA /* graphic-web-designer.json in Resources */,
 				9D135718271FD7F300C7F6A9 /* Main.storyboard in Resources */,
+				17B8A93E27B6592A00D0D7CA /* processing-your-orders.json in Resources */,
+				1726147D27BAC8D600049F4B /* calendar-event.json in Resources */,
+				17B8A93827B6592A00D0D7CA /* login.json in Resources */,
+				17B8A93527B6592A00D0D7CA /* business-illustration.json in Resources */,
+				17B8A94027B6592A00D0D7CA /* secure-login.json in Resources */,
+				17B8A93C27B6592A00D0D7CA /* making-notes.json in Resources */,
+				17B8A93F27B6592A00D0D7CA /* signup.json in Resources */,
+				1726147B27BAC8D600049F4B /* data-inform-illustration-animation-json.json in Resources */,
+				173A8CAE27BAB277002D1AAE /* helloASA.json in Resources */,
+				1726147C27BAC8D600049F4B /* success.json in Resources */,
+				17B8A93427B6592A00D0D7CA /* notes-animation.json in Resources */,
+				17B8A94727B6592A00D0D7CA /* business-idea-animation.json in Resources */,
+				17B8A94927B6592A00D0D7CA /* hero-image-masterlanding.json in Resources */,
+				17B8A94227B6592A00D0D7CA /* online-exam.json in Resources */,
+				17B8A93227B6592A00D0D7CA /* designer-graphic.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,10 +526,12 @@
 				9D135711271FD7F300C7F6A9 /* AppDelegate.swift in Sources */,
 				9D1357412721C40600C7F6A9 /* SignUpViewController.swift in Sources */,
 				9D1357692726CF9300C7F6A9 /* ResultViewController.swift in Sources */,
+				173A8C7727B823F0002D1AAE /* Events.swift in Sources */,
 				9D135713271FD7F300C7F6A9 /* SceneDelegate.swift in Sources */,
 				9D19C17E27AD1E4900CCF9F4 /* EventViewController.swift in Sources */,
 				9D13573D2721C3EB00C7F6A9 /* LogInViewController.swift in Sources */,
 				9DC981A927685D17001B4F96 /* CalendarCell.swift in Sources */,
+				173A8C7D27B8280F002D1AAE /* EventCollectionView.swift in Sources */,
 				9D1357662726CF3600C7F6A9 /* HomeViewController.swift in Sources */,
 				9D718E7F276D212000EFE144 /* CalendarHelper.swift in Sources */,
 				9DC981B5276A67C2001B4F96 /* AlertViewController.swift in Sources */,
@@ -669,6 +695,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AJU/AJU.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = FARWN7FEXX;
@@ -691,6 +718,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AJU/AJU.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = FARWN7FEXX;

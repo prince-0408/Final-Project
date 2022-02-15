@@ -15,7 +15,9 @@ class HomeViewController: UIViewController {
         
         lottieAnimation()
         
-        self.title = String(format: "Welcome %@", UserDefaults.standard.getUserName())
+        if let username = UserDefaults.standard.getUserName() {
+            self.title = String(format: "Welcome %@", username)
+        }
 
     }
     
@@ -25,14 +27,13 @@ class HomeViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         UIView.animate(withDuration: 10) {
-            self.progressView.value = 50
+            self.progressView.value = 75
         }
     }
     func lottieAnimation() {
         
         let animationview = AnimationView(name: "Hello")
         animationview.frame = CGRect(x: 0, y: 0, width: 390, height: 295)
-        //animationview.center = self.view.center
         animationview.contentMode = .scaleAspectFit
         view.addSubview(animationview)
         animationview.play()

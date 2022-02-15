@@ -38,8 +38,8 @@ extension UserDefaults{
     }
     
     //MARK: Retrieve User Data
-    func getUserName() -> String{
-        return string(forKey: UserDefaultsKeys.userName.rawValue)!
+    func getUserName() -> String? {
+        return string(forKey: UserDefaultsKeys.userName.rawValue)
     }
     
     func getPassword() -> String{

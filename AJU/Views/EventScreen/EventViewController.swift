@@ -6,7 +6,7 @@ class EventViewController: UIViewController {
     @IBOutlet weak var eventCollectionView: UICollectionView!
     
     @IBOutlet weak var animationView: AnimationView!
-    
+
     var events = Events.FetchEvents()
     var cellScale : CGFloat = 0.6
     
@@ -15,22 +15,12 @@ class EventViewController: UIViewController {
       
         lottieAnimation()
         
-        let screenSize = UIScreen.main.bounds.size
-        let cellWidth = floor(screenSize.width * cellScale )
-        let cellHeight = floor(screenSize.height * cellScale)
-        let instX = ( view.bounds.width - cellWidth ) / 2.0
-        let instY = ( view.bounds.height - cellHeight ) / 2.0
-        let layout = eventCollectionView!.collectionViewLayout as! UICollectionViewFlowLayout
-        
-        layout.itemSize = CGSize(width: cellWidth, height: cellHeight )
-        eventCollectionView.contentInset = UIEdgeInsets(top: instY , left: instX , bottom: instY, right: instX )
         eventCollectionView.dataSource = self
-        eventCollectionView.dataSource = self
-        
+        eventCollectionView.delegate = self
     }
 }
-extension EventViewController : UICollectionViewDataSource  {
-    
+extension EventViewController : UICollectionViewDataSource, UICollectionViewDelegate  {
+
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
@@ -44,9 +34,28 @@ extension EventViewController : UICollectionViewDataSource  {
         
         let event = events[indexPath.item]
         cell.event = event
+        cell.backgroundColor = UIColor.black
+        cell.layer.borderWidth = 1
+        cell.layer.shadowColor = UIColor.gray.cgColor
+        cell.layer.shadowRadius = 2.0
+        cell.layer.cornerRadius = 10
+        cell.layer.borderColor = UIColor.lightGray.cgColor
+        cell.layer.shadowOffset = CGSize(width: 2.0, height: 4.0)
+        cell.layer.shadowRadius = 2.0
         return cell
-    
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(identifier: "EventDetail")
+        vc.modalPresentationStyle = .popover
+        present(vc, animated: true)
+        
+    }
+    
+    
+    
     func lottieAnimation() {
         
         let animationview = AnimationView(name: "calendar-event")

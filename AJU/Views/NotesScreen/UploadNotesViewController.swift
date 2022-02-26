@@ -4,7 +4,7 @@ import UIKit
 import DropDown
 import Lottie
 
-class UploadNotesViewController: UIViewController {
+class UploadNotesViewController: UIDocumentPickerViewController {
     
     @IBOutlet weak var animationView: AnimationView!
     

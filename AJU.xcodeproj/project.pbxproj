@@ -288,25 +288,25 @@
 		9D135726271FD87200C7F6A9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9D1357492724259B00C7F6A9 /* HomeScreen */,
 				9D19C17C27AD19CA00CCF9F4 /* CalendarView */,
 				17E2B86127BE856400118C82 /* ResultScreen */,
 				176E808727BB893D00F34704 /* EventScreen */,
 				9D81D418273518D200E806D3 /* NotesScreen */,
-				9D1357492724259B00C7F6A9 /* Screens */,
 				9D13573B2721C3B100C7F6A9 /* SignUpScreen */,
 				9D13573A2721C3A000C7F6A9 /* LoginScreen */,
-				9D135728271FD89000C7F6A9 /* Onboarding */,
+				9D135728271FD89000C7F6A9 /* OnboardingScreen */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		9D135728271FD89000C7F6A9 /* Onboarding */ = {
+		9D135728271FD89000C7F6A9 /* OnboardingScreen */ = {
 			isa = PBXGroup;
 			children = (
 				9D135729271FD8CA00C7F6A9 /* OnboardingViewController.swift */,
 				9D135736271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift */,
 			);
-			path = Onboarding;
+			path = OnboardingScreen;
 			sourceTree = "<group>";
 		};
 		9D13572E271FE5A600C7F6A9 /* Extensions */ = {
@@ -335,14 +335,14 @@
 			path = SignUpScreen;
 			sourceTree = "<group>";
 		};
-		9D1357492724259B00C7F6A9 /* Screens */ = {
+		9D1357492724259B00C7F6A9 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
 				9D1357652726CF3600C7F6A9 /* HomeViewController.swift */,
 				17E2B85E27BE43A800118C82 /* QuotesCollectionViewCell.swift */,
 				1716583827BE25AB00766841 /* Quotes.swift */,
 			);
-			path = Screens;
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 		9D19C17C27AD19CA00CCF9F4 /* CalendarView */ = {

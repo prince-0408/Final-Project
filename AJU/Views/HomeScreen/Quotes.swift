@@ -1,18 +1,19 @@
 
 
 import UIKit
+import Charts
 
 class Quotes  {
     
-    var imageQuotes : UIImage
+    let imageQuotes : UIImage
     
     init(imageQuotes: UIImage) {
         self.imageQuotes = imageQuotes
     }
     static func FetchQuotes () -> [Quotes]{
         
-        return [Quotes(imageQuotes: UIImage(named: "1")!),
-                Quotes(imageQuotes: UIImage(named: "2")!)
+        return [Quotes(imageQuotes: #imageLiteral(resourceName: "chart")),
+                Quotes(imageQuotes: #imageLiteral(resourceName: "4"))
         ]
     }
 }

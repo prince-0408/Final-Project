@@ -3,7 +3,8 @@ import Lottie
 
 
 class ResultViewController: UIViewController {
-
+    
+    @IBOutlet weak var showResultBtn: UIButton!
     @IBOutlet weak var getName: UITextField!
     @IBOutlet weak var getEnrollmentNumber: UITextField!
     @IBOutlet weak var getSemester: UITextField!
@@ -13,9 +14,7 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
         lottieAnimation()
     }
-    @IBAction func showResult(_ sender: Any) {
-        
-    }
+   
     func lottieAnimation() {
         
         let animationview = AnimationView(name: "back-to-school")

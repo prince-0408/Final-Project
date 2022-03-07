@@ -16,6 +16,9 @@
 		173A8C7727B823F0002D1AAE /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173A8C7627B823F0002D1AAE /* Events.swift */; };
 		173A8C7D27B8280F002D1AAE /* EventCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173A8C7C27B8280F002D1AAE /* EventCollectionView.swift */; };
 		173A8CAE27BAB277002D1AAE /* helloASA.json in Resources */ = {isa = PBXBuildFile; fileRef = 173A8CA827BAB276002D1AAE /* helloASA.json */; };
+		173F3DA127D0B0A800281164 /* MarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F3DA027D0B0A800281164 /* MarksViewController.swift */; };
+		1773FD0327CF3A0200115DAD /* uploading.json in Resources */ = {isa = PBXBuildFile; fileRef = 1773FD0227CF3A0200115DAD /* uploading.json */; };
+		179965E227D6941B00E019EF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179965E127D6941B00E019EF /* SettingsViewController.swift */; };
 		17B8A93027B6592A00D0D7CA /* validate-button.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91327B6592300D0D7CA /* validate-button.json */; };
 		17B8A93127B6592A00D0D7CA /* event-venue.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91427B6592300D0D7CA /* event-venue.json */; };
 		17B8A93227B6592A00D0D7CA /* designer-graphic.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91527B6592300D0D7CA /* designer-graphic.json */; };
@@ -90,6 +93,9 @@
 		173A8C7627B823F0002D1AAE /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		173A8C7C27B8280F002D1AAE /* EventCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionView.swift; sourceTree = "<group>"; };
 		173A8CA827BAB276002D1AAE /* helloASA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = helloASA.json; sourceTree = "<group>"; };
+		173F3DA027D0B0A800281164 /* MarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksViewController.swift; sourceTree = "<group>"; };
+		1773FD0227CF3A0200115DAD /* uploading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = uploading.json; sourceTree = "<group>"; };
+		179965E127D6941B00E019EF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		17B8A8F027B64AAE00D0D7CA /* AJU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AJU.entitlements; sourceTree = "<group>"; };
 		17B8A91327B6592300D0D7CA /* validate-button.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "validate-button.json"; sourceTree = "<group>"; };
 		17B8A91427B6592300D0D7CA /* event-venue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "event-venue.json"; sourceTree = "<group>"; };
@@ -184,6 +190,7 @@
 				1726147627BAC8D500049F4B /* data-inform-illustration-animation-json.json */,
 				1726147427BAC8D500049F4B /* girl-studying-on-laptop.json */,
 				1726147727BAC8D500049F4B /* success.json */,
+				1773FD0227CF3A0200115DAD /* uploading.json */,
 				173A8CA827BAB276002D1AAE /* helloASA.json */,
 				17B8A91627B6592300D0D7CA /* content-writing.json */,
 				17B8A92827B6592800D0D7CA /* Dashboard.json */,
@@ -226,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				9D1357682726CF9300C7F6A9 /* ResultViewController.swift */,
+				173F3DA027D0B0A800281164 /* MarksViewController.swift */,
 			);
 			path = ResultScreen;
 			sourceTree = "<group>";
@@ -341,6 +349,7 @@
 				9D1357652726CF3600C7F6A9 /* HomeViewController.swift */,
 				17E2B85E27BE43A800118C82 /* QuotesCollectionViewCell.swift */,
 				1716583827BE25AB00766841 /* Quotes.swift */,
+				179965E127D6941B00E019EF /* SettingsViewController.swift */,
 			);
 			path = HomeScreen;
 			sourceTree = "<group>";
@@ -428,7 +437,7 @@
 				};
 			};
 			buildConfigurationList = 9D135708271FD7F300C7F6A9 /* Build configuration list for PBXProject "AJU" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -458,6 +467,7 @@
 				17B8A93727B6592A00D0D7CA /* welcome.json in Resources */,
 				17B8A94627B6592A00D0D7CA /* change-colors-at-great-design.json in Resources */,
 				17B8A93327B6592A00D0D7CA /* content-writing.json in Resources */,
+				1773FD0327CF3A0200115DAD /* uploading.json in Resources */,
 				17B8A94427B6592A00D0D7CA /* Dashboard.json in Resources */,
 				1726147927BAC8D600049F4B /* girl-studying-on-laptop.json in Resources */,
 				17B8A93A27B6592A00D0D7CA /* team.json in Resources */,
@@ -556,6 +566,7 @@
 				9DC981A927685D17001B4F96 /* CalendarCell.swift in Sources */,
 				173A8C7D27B8280F002D1AAE /* EventCollectionView.swift in Sources */,
 				9D1357662726CF3600C7F6A9 /* HomeViewController.swift in Sources */,
+				173F3DA127D0B0A800281164 /* MarksViewController.swift in Sources */,
 				9D718E7F276D212000EFE144 /* CalendarHelper.swift in Sources */,
 				9DC981B5276A67C2001B4F96 /* AlertViewController.swift in Sources */,
 				9D135730271FE5DF00C7F6A9 /* UIView+Extension.swift in Sources */,
@@ -566,6 +577,7 @@
 				9D793792273F938700CFC8A7 /* ForgotPasswordViewController.swift in Sources */,
 				9DC9819327672999001B4F96 /* Extension.swift in Sources */,
 				17E2B85F27BE43A800118C82 /* QuotesCollectionViewCell.swift in Sources */,
+				179965E227D6941B00E019EF /* SettingsViewController.swift in Sources */,
 				9D81D41B2735773C00E806D3 /* UploadNotesViewController.swift in Sources */,
 				9DB3D7A42728850D00D5FEF4 /* EventDetailsViewController.swift in Sources */,
 				9D135737271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift in Sources */,

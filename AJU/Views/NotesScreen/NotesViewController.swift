@@ -79,7 +79,6 @@ class NotesViewController: UIViewController {
         
         let animationview = AnimationView(name: "content-writing")
         animationview.frame = CGRect(x: 0, y: 0, width: 390, height: 295)
-        //animationview.center = self.view.center
         animationview.contentMode = .scaleAspectFit
         view.addSubview(animationview)
         animationview.play()

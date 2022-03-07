@@ -1,4 +1,3 @@
-
 import UIKit
 extension String {
         //Converts String to Int
@@ -9,7 +8,6 @@ extension String {
                 return nil
             }
         }
-
         //Converts String to Double
         public func toDouble() -> Double? {
             if let num = NumberFormatter().number(from: self) {
@@ -25,10 +23,10 @@ extension String {
                 return num.floatValue
             } else {
                 return nil
-            }
         }
+    }
 
-        //Converts String to Bool
+    //Converts String to Bool
         public func toBool() -> Bool? {
             return (self as NSString).boolValue
         }
@@ -65,6 +63,4 @@ class AlertViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
 
     }
-    
-    
 }

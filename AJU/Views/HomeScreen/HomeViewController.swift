@@ -6,9 +6,7 @@ import Lottie
 class HomeViewController: UIViewController {
     
     @IBOutlet weak var quotesCollectionView: UICollectionView!
-    
-    @IBOutlet weak var progressView: MBCircularProgressBarView!
-    
+    @IBOutlet weak var SideMenu: UIBarButtonItem!
     @IBOutlet weak var animationView: AnimationView!
     
     var quotes = Quotes.FetchQuotes()
@@ -24,28 +22,30 @@ class HomeViewController: UIViewController {
         if let username = UserDefaults.standard.getUserName() {
             self.title = String(format: "Welcome %@", username)
         }
+        
     }
 
-    
     @IBAction func timeTableBtn(_ sender: Any) {
 
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        UIView.animate(withDuration: 10) {
-            self.progressView.value = 75
-        }
+    // SideMenu
+    @IBAction func sideMenuTapped(_ sender: Any) {
+        let controller = storyboard?.instantiateViewController(identifier: "Setting")
+        controller!.modalPresentationStyle = .popover
+        controller!.modalTransitionStyle = .coverVertical
+        present(controller!, animated: true, completion: nil)
     }
+    
     func lottieAnimation() {
         
         let animationview = AnimationView(name: "Hello")
-        animationview.frame = CGRect(x: 0, y: 0, width: 390, height: 295)
+        animationview.frame = CGRect(x: 0, y: 50, width: 390, height: 295)
         animationview.contentMode = .scaleAspectFit
         view.addSubview(animationview)
         animationview.play()
         animationview.loopMode = .loop
-
-        }
+    }
 }
     extension HomeViewController : UICollectionViewDataSource  {
         
@@ -68,6 +68,8 @@ class HomeViewController: UIViewController {
             return cell
         }
     }
+
+
 
     
 

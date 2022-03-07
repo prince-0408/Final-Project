@@ -4,7 +4,7 @@ import UIKit
 import DropDown
 import Lottie
 
-class UploadNotesViewController: UIDocumentPickerViewController {
+class UploadNotesViewController: UIViewController {
     
     @IBOutlet weak var animationView: AnimationView!
     
@@ -78,9 +78,9 @@ class UploadNotesViewController: UIDocumentPickerViewController {
     }
     func lottieAnimation() {
         
-        let animationview = AnimationView(name: "completed-task-files")
-        animationview.frame = CGRect(x: 0, y: 10, width: 390, height: 295)
-        //animationview.center = self.view.center
+        let animationview = AnimationView(name: "uploading")
+        animationview.frame = CGRect(x: 0, y: 0, width: 390, height: 295)
+        
         animationview.contentMode = .scaleAspectFit
         view.addSubview(animationview)
         animationview.play()

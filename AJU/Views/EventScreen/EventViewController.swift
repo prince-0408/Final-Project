@@ -17,6 +17,7 @@ class EventViewController: UIViewController {
         
         eventCollectionView.dataSource = self
         eventCollectionView.delegate = self
+        
     }
 }
 extension EventViewController : UICollectionViewDataSource, UICollectionViewDelegate  {
@@ -44,18 +45,16 @@ extension EventViewController : UICollectionViewDataSource, UICollectionViewDele
         cell.layer.shadowRadius = 2.0
         return cell
     }
-    
+    // Event Details
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(identifier: "EventDetail")
-        vc.modalPresentationStyle = .popover
-        present(vc, animated: true)
-        
+       
+        let mainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
+        let VC = mainStoryBoard.instantiateViewController(identifier: "EventDetailsViewController") as! EventDetailsViewController
+        VC.eventNme = Events.FetchEvents()[indexPath.row].title
+        VC.eventDetail = Events.FetchEvents()[indexPath.row].eventDetails
+        VC.eventimg = Events.FetchEvents()[indexPath.row].imageEvents
+        self.navigationController?.present(VC, animated: true)
     }
-    
-    
-    
     func lottieAnimation() {
         
         let animationview = AnimationView(name: "calendar-event")

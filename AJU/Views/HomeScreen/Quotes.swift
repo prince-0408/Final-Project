@@ -13,7 +13,7 @@ class Quotes  {
     static func FetchQuotes () -> [Quotes]{
         
         return [Quotes(imageQuotes: #imageLiteral(resourceName: "chart")),
-                Quotes(imageQuotes: #imageLiteral(resourceName: "4"))
+                Quotes(imageQuotes: #imageLiteral(resourceName: "logo"))
         ]
     }
 }

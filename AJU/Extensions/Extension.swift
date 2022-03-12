@@ -42,11 +42,11 @@ extension UserDefaults{
         return string(forKey: UserDefaultsKeys.userName.rawValue)
     }
     
-    func getPassword() -> String{
+    func getPassword() -> String {
         return string(forKey: UserDefaultsKeys.password.rawValue)!
     }
     
-    func getEmail() -> String{
+    func getEmail() -> String {
         return string(forKey: UserDefaultsKeys.email.rawValue)!
     }
 }

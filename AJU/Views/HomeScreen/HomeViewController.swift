@@ -45,8 +45,8 @@ class HomeViewController: UIViewController {
         view.addSubview(animationview)
         animationview.play()
         animationview.loopMode = .loop
+        }
     }
-}
     extension HomeViewController : UICollectionViewDataSource  {
         
         func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -66,12 +66,5 @@ class HomeViewController: UIViewController {
             cell.layer.shadowOffset = CGSize(width: 2.0, height: 4.0)
             cell.layer.shadowRadius = 2.0
             return cell
-        }
     }
-
-
-
-    
-
-
-
+}

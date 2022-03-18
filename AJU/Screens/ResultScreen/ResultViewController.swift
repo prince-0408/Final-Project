@@ -7,7 +7,6 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var showResultBtn: UIButton!
     @IBOutlet weak var getName: UITextField!
     @IBOutlet weak var getEnrollmentNumber: UITextField!
-    @IBOutlet weak var getSemester: UITextField!
     @IBOutlet weak var animationView: UIView!
 
     override func viewDidLoad() {

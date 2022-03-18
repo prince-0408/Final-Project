@@ -1,21 +1,18 @@
+
 {"students":[
   { "Name": "Prince Yadav"},
-  { "Semester": "1", "2", "3", "4", "5", "6", "7", "8",},
   { "Enrollment Number": "191377" }
 ]
 [
   { "Name": "Nitu Kumari"},
-  { "Semester": "1", "2", "3", "4", "5", "6", "7", "8",},
   { "Enrollment Number": "191378" }
 ]
 [
   { "Name": "Rakshit Kumar"},
-  { "Semester": "1", "2", "3", "4", "5", "6", "7", "8",},
   { "Enrollment Number": "191379" }
 ]
 [
   { "Name": "Megha Kumari"},
-  { "Semester": "1", "2", "3", "4", "5", "6", "7", "8",},
   { "Enrollment Number": "191380" }
 ]
 }

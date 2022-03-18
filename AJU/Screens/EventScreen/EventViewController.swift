@@ -4,9 +4,7 @@ import Lottie
 class EventViewController: UIViewController {
 
     @IBOutlet weak var eventCollectionView: UICollectionView!
-    
     @IBOutlet weak var animationView: AnimationView!
-
     var events = Events.FetchEvents()
     var cellScale : CGFloat = 0.6
     

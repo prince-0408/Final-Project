@@ -242,6 +242,7 @@
 		17E2B86127BE856400118C82 /* ResultScreen */ = {
 			isa = PBXGroup;
 			children = (
+				170CE2A927DD034D002949E3 /* ResultData */,
 				9D1357682726CF9300C7F6A9 /* ResultViewController.swift */,
 				173F3DA027D0B0A800281164 /* MarksViewController.swift */,
 			);
@@ -278,11 +279,10 @@
 		9D13570F271FD7F300C7F6A9 /* AJU */ = {
 			isa = PBXGroup;
 			children = (
-				170CE2A927DD034D002949E3 /* ResultData */,
 				174D5EBD27B53709003D6290 /* LottieEffects */,
 				9DC98198276731AD001B4F96 /* Custom Views */,
 				9D13572E271FE5A600C7F6A9 /* Extensions */,
-				9D135726271FD87200C7F6A9 /* Views */,
+				9D135726271FD87200C7F6A9 /* Screens */,
 				9D135725271FD85D00C7F6A9 /* Models */,
 				9D135710271FD7F300C7F6A9 /* AppDelegate.swift */,
 				9D135712271FD7F300C7F6A9 /* SceneDelegate.swift */,
@@ -304,7 +304,7 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		9D135726271FD87200C7F6A9 /* Views */ = {
+		9D135726271FD87200C7F6A9 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				9D135728271FD89000C7F6A9 /* OnboardingScreen */,
@@ -316,7 +316,7 @@
 				9D13573B2721C3B100C7F6A9 /* SignUpScreen */,
 				9D13573A2721C3A000C7F6A9 /* LoginScreen */,
 			);
-			path = Views;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		9D135728271FD89000C7F6A9 /* OnboardingScreen */ = {

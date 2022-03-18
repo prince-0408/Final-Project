@@ -36,7 +36,7 @@ class UploadNotesViewController: UIViewController {
         dropDown.topOffset = CGPoint(x: 0, y:-(dropDown.anchorView?.plainView.bounds.height)!)
         dropDown.direction = .bottom
         dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
-          print("Selected item: \(item) at index: \(index)")
+          //print("Selected item: \(item) at index: \(index)")
             self.lblTitle.text = CourseArray[index]
         }
         
@@ -47,7 +47,7 @@ class UploadNotesViewController: UIViewController {
         dropDown1.topOffset = CGPoint(x: 0, y:-(dropDown.anchorView?.plainView.bounds.height)!)
         dropDown1.direction = .bottom
         dropDown1.selectionAction = { [unowned self] (index: Int, item: String) in
-          print("Selected item: \(item) at index: \(index)")
+          //print("Selected item: \(item) at index: \(index)")
             self.lblTitle1.text = BranchArray[index]
         }
         lblTitle2.text = "Select Semester"
@@ -57,7 +57,7 @@ class UploadNotesViewController: UIViewController {
         dropDown2.topOffset = CGPoint(x: 0, y:-(dropDown.anchorView?.plainView.bounds.height)!)
         dropDown2.direction = .bottom
         dropDown2.selectionAction = { [unowned self] (index: Int, item: String) in
-          print("Selected item: \(item) at index: \(index)")
+          //print("Selected item: \(item) at index: \(index)")
             self.lblTitle2.text = SemesterArray[index]
         }
 

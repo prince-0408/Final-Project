@@ -9,6 +9,5 @@ target 'AJU' do
 pod 'DropDown'
 pod "MBCircularProgressBar"
 pod 'Charts'
-pod 'TinyConstaints'
  
 end

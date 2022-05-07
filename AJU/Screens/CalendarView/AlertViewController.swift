@@ -8,7 +8,7 @@ extension String {
                 return nil
             }
         }
-        //Converts String to Double
+        //MARK: - Converts String to Double
         public func toDouble() -> Double? {
             if let num = NumberFormatter().number(from: self) {
                 return num.doubleValue
@@ -17,7 +17,7 @@ extension String {
             }
         }
 
-        /// EZSE: Converts String to Float
+        //MARK: - Converts String to Float
         public func toFloat() -> Float? {
             if let num = NumberFormatter().number(from: self) {
                 return num.floatValue
@@ -26,7 +26,7 @@ extension String {
         }
     }
 
-    //Converts String to Bool
+    //MARK: -Converts String to Bool
         public func toBool() -> Bool? {
             return (self as NSString).boolValue
         }
@@ -34,7 +34,7 @@ extension String {
 protocol GetEventDetailsDelegate: AnyObject {
         func sendEventDataToTimeTableVC(event: Event?)
     }
-
+    //MARK: - AlertView
 class AlertViewController: UIViewController {
 
     @IBOutlet weak var subNameTF: UITextField!

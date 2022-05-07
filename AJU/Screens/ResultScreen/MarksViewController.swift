@@ -32,7 +32,7 @@ class MarksViewController: UIViewController {
     
         let dataSet = PieChartDataSet(entries: entries, label: "")
         
-        let c1 = #colorLiteral(red: 0.14647156, green: 0.5010695457, blue: 0.4824878573, alpha: 1)
+        let c1 = #colorLiteral(red: 0.09019608051, green: 0, blue: 0.3019607961, alpha: 1)
         let c2 = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
         let c3 = #colorLiteral(red: 0.5058823824, green: 0.3372549117, blue: 0.06666667014, alpha: 1)
         let c4 = #colorLiteral(red: 0.7466754317, green: 0.1948618889, blue: 0.3354617953, alpha: 1)
@@ -42,6 +42,6 @@ class MarksViewController: UIViewController {
         dataSet.drawValuesEnabled = false
         
         pieView.data = PieChartData(dataSet: dataSet)
-        pieView.animate(xAxisDuration: 2.5)
+        pieView.animate(xAxisDuration: 1.5)
     }
 }

@@ -9,7 +9,7 @@ class OnboardingViewController: UIViewController {
     @IBOutlet weak var pageControl: UIPageControl!
     
     var slides: [OnboardingSlide] = []
-    
+    //MARK: - Views
     var currentPage = 0 {
         didSet {
             pageControl.currentPage = currentPage

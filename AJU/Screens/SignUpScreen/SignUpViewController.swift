@@ -7,7 +7,6 @@ import Lottie
 
 class SignUpViewController: UIViewController {
     
-    
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var password: UITextField!

@@ -1,6 +1,5 @@
 
 import UIKit
-import MBCircularProgressBar
 import Lottie
 
 class HomeViewController: UIViewController {
@@ -8,6 +7,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var quotesCollectionView: UICollectionView!
     @IBOutlet weak var SideMenu: UIBarButtonItem!
     @IBOutlet weak var animationView: AnimationView!
+    @IBOutlet weak var MessageBtn: UIBarButtonItem!
     
     var quotes = Quotes.FetchQuotes()
     var cellScale : CGFloat = 0.6
@@ -29,12 +29,15 @@ class HomeViewController: UIViewController {
 
     }
     
-    // SideMenu
+    //MARK: -SideMenu
     @IBAction func sideMenuTapped(_ sender: Any) {
         let controller = storyboard?.instantiateViewController(identifier: "Setting")
         controller!.modalPresentationStyle = .popover
         controller!.modalTransitionStyle = .coverVertical
         present(controller!, animated: true, completion: nil)
+    }
+    @IBAction func messageBtnTapped(_ sender: Any) {
+        
     }
     
     func lottieAnimation() {

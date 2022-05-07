@@ -1,8 +1,9 @@
 import UIKit
 import Lottie
 
-class EventViewController: UIViewController {
 
+class EventViewController: UIViewController {
+    
     @IBOutlet weak var eventCollectionView: UICollectionView!
     @IBOutlet weak var animationView: AnimationView!
     var events = Events.FetchEvents()
@@ -10,13 +11,13 @@ class EventViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+        
         lottieAnimation()
         
         eventCollectionView.dataSource = self
         eventCollectionView.delegate = self
-        
     }
+   
 }
 extension EventViewController : UICollectionViewDataSource, UICollectionViewDelegate  {
 
@@ -27,10 +28,10 @@ extension EventViewController : UICollectionViewDataSource, UICollectionViewDele
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return events.count
     }
-    
+    //MARK: - CollectionView
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EventCollectionViewCell", for: indexPath) as! EventCollectionViewCell
-        
+      
         let event = events[indexPath.item]
         cell.event = event
         cell.backgroundColor = UIColor.black
@@ -42,17 +43,21 @@ extension EventViewController : UICollectionViewDataSource, UICollectionViewDele
         cell.layer.shadowOffset = CGSize(width: 2.0, height: 4.0)
         cell.layer.shadowRadius = 2.0
         return cell
+        
     }
-    // Event Details
+    //MARK: -Event Details
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
        
         let mainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
         let VC = mainStoryBoard.instantiateViewController(identifier: "EventDetailsViewController") as! EventDetailsViewController
+        
         VC.eventNme = Events.FetchEvents()[indexPath.row].title
         VC.eventDetail = Events.FetchEvents()[indexPath.row].eventDetails
         VC.eventimg = Events.FetchEvents()[indexPath.row].imageEvents
         self.navigationController?.present(VC, animated: true)
+       
     }
+    // MARK: - LottieAnimation
     func lottieAnimation() {
         
         let animationview = AnimationView(name: "calendar-event")

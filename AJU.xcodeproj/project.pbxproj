@@ -18,6 +18,7 @@
 		173A8C7D27B8280F002D1AAE /* EventCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173A8C7C27B8280F002D1AAE /* EventCollectionView.swift */; };
 		173A8CAE27BAB277002D1AAE /* helloASA.json in Resources */ = {isa = PBXBuildFile; fileRef = 173A8CA827BAB276002D1AAE /* helloASA.json */; };
 		173F3DA127D0B0A800281164 /* MarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F3DA027D0B0A800281164 /* MarksViewController.swift */; };
+		1752AF332826C95C00FCE27E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752AF322826C95C00FCE27E /* MessageViewController.swift */; };
 		1773FD0327CF3A0200115DAD /* uploading.json in Resources */ = {isa = PBXBuildFile; fileRef = 1773FD0227CF3A0200115DAD /* uploading.json */; };
 		179965E227D6941B00E019EF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179965E127D6941B00E019EF /* SettingsViewController.swift */; };
 		17B8A93027B6592A00D0D7CA /* validate-button.json in Resources */ = {isa = PBXBuildFile; fileRef = 17B8A91327B6592300D0D7CA /* validate-button.json */; };
@@ -96,6 +97,7 @@
 		173A8C7C27B8280F002D1AAE /* EventCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionView.swift; sourceTree = "<group>"; };
 		173A8CA827BAB276002D1AAE /* helloASA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = helloASA.json; sourceTree = "<group>"; };
 		173F3DA027D0B0A800281164 /* MarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksViewController.swift; sourceTree = "<group>"; };
+		1752AF322826C95C00FCE27E /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		1773FD0227CF3A0200115DAD /* uploading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = uploading.json; sourceTree = "<group>"; };
 		179965E127D6941B00E019EF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		17B8A8F027B64AAE00D0D7CA /* AJU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AJU.entitlements; sourceTree = "<group>"; };
@@ -283,7 +285,6 @@
 				9DC98198276731AD001B4F96 /* Custom Views */,
 				9D13572E271FE5A600C7F6A9 /* Extensions */,
 				9D135726271FD87200C7F6A9 /* Screens */,
-				9D135725271FD85D00C7F6A9 /* Models */,
 				9D135710271FD7F300C7F6A9 /* AppDelegate.swift */,
 				9D135712271FD7F300C7F6A9 /* SceneDelegate.swift */,
 				9D135716271FD7F300C7F6A9 /* Main.storyboard */,
@@ -324,6 +325,7 @@
 			children = (
 				9D135729271FD8CA00C7F6A9 /* OnboardingViewController.swift */,
 				9D135736271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift */,
+				9D135725271FD85D00C7F6A9 /* Models */,
 			);
 			path = OnboardingScreen;
 			sourceTree = "<group>";
@@ -361,6 +363,7 @@
 				17E2B85E27BE43A800118C82 /* QuotesCollectionViewCell.swift */,
 				1716583827BE25AB00766841 /* Quotes.swift */,
 				179965E127D6941B00E019EF /* SettingsViewController.swift */,
+				1752AF322826C95C00FCE27E /* MessageViewController.swift */,
 			);
 			path = HomeScreen;
 			sourceTree = "<group>";
@@ -591,6 +594,7 @@
 				17E2B85F27BE43A800118C82 /* QuotesCollectionViewCell.swift in Sources */,
 				179965E227D6941B00E019EF /* SettingsViewController.swift in Sources */,
 				9D81D41B2735773C00E806D3 /* UploadNotesViewController.swift in Sources */,
+				1752AF332826C95C00FCE27E /* MessageViewController.swift in Sources */,
 				9DB3D7A42728850D00D5FEF4 /* EventDetailsViewController.swift in Sources */,
 				9D135737271FEF0B00C7F6A9 /* OnboardingCollectionViewCell.swift in Sources */,
 				9DC9819A27673218001B4F96 /* ProgressHUD.swift in Sources */,

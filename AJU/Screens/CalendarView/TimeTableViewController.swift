@@ -1,3 +1,4 @@
+
 import UIKit
 import SwiftUI
 
@@ -67,7 +68,7 @@ class TimeTableViewController: UIViewController, UICollectionViewDelegate, UICol
         selectedDate = CalendarHelper().addDays(date: selectedDate, days: -7)
         setMonthView()
     }
-    
+    //MARK: - Week Button
     @IBAction func nextWeek(_ sender: Any){
         selectedDate = CalendarHelper().addDays(date: selectedDate, days: 7)
         setMonthView()
@@ -94,7 +95,7 @@ class TimeTableViewController: UIViewController, UICollectionViewDelegate, UICol
         super.viewDidAppear(animated)
         tableView.reloadData()
     }
-    
+    //MARK: - Add Event Button
     @IBAction func addEventBtn(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let myAlert = storyboard.instantiateViewController(withIdentifier: "alert") as! AlertViewController

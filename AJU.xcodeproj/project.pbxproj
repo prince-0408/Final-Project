@@ -66,6 +66,7 @@
 		9D13576C2726CFBA00C7F6A9 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */; };
 		9D19C09B27A6D76A00CCF9F4 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9D19C09A27A6D76A00CCF9F4 /* Lottie */; };
 		9D19C17E27AD1E4900CCF9F4 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C17D27AD1E4900CCF9F4 /* EventViewController.swift */; };
+		9D1E245A282868800057935B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1E2459282868800057935B /* Utils.swift */; };
 		9D718E7F276D212000EFE144 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D718E7E276D212000EFE144 /* CalendarHelper.swift */; };
 		9D793792273F938700CFC8A7 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D793791273F938700CFC8A7 /* ForgotPasswordViewController.swift */; };
 		9D81D41B2735773C00E806D3 /* UploadNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D81D41A2735773B00E806D3 /* UploadNotesViewController.swift */; };
@@ -146,6 +147,7 @@
 		9D1357682726CF9300C7F6A9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		9D13576B2726CFBA00C7F6A9 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		9D19C17D27AD1E4900CCF9F4 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		9D1E2459282868800057935B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		9D718E7E276D212000EFE144 /* CalendarHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 		9D793791273F938700CFC8A7 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		9D81D41A2735773B00E806D3 /* UploadNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadNotesViewController.swift; sourceTree = "<group>"; };
@@ -281,6 +283,7 @@
 		9D13570F271FD7F300C7F6A9 /* AJU */ = {
 			isa = PBXGroup;
 			children = (
+				9D1E24582828686A0057935B /* Utils */,
 				174D5EBD27B53709003D6290 /* LottieEffects */,
 				9DC98198276731AD001B4F96 /* Custom Views */,
 				9D13572E271FE5A600C7F6A9 /* Extensions */,
@@ -379,6 +382,14 @@
 				9DC981B4276A67C2001B4F96 /* AlertViewController.swift */,
 			);
 			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		9D1E24582828686A0057935B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9D1E2459282868800057935B /* Utils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		9D81D418273518D200E806D3 /* NotesScreen */ = {
@@ -592,6 +603,7 @@
 				9D793792273F938700CFC8A7 /* ForgotPasswordViewController.swift in Sources */,
 				9DC9819327672999001B4F96 /* Extension.swift in Sources */,
 				17E2B85F27BE43A800118C82 /* QuotesCollectionViewCell.swift in Sources */,
+				9D1E245A282868800057935B /* Utils.swift in Sources */,
 				179965E227D6941B00E019EF /* SettingsViewController.swift in Sources */,
 				9D81D41B2735773C00E806D3 /* UploadNotesViewController.swift in Sources */,
 				1752AF332826C95C00FCE27E /* MessageViewController.swift in Sources */,

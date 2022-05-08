@@ -24,7 +24,7 @@ class OnboardingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if(UserDefaults.standard.isRegistered()) {
+        if(UserDefaults.standard.isUsersAvailable().count > 0) {
             //Show Login Screen
             
             let storyboard = UIStoryboard(name: "Main", bundle: nil)

@@ -23,16 +23,22 @@ class LogInViewController: UIViewController {
     }
     
     @IBAction func loginTapped(_ sender: Any) {
-        ProgressHUD.show("Loading")
-        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
-            ProgressHUD.dismiss()
+    //        ProgressHUD.show("Loading")
+    //        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+    //            ProgressHUD.dismiss()
+    //        }
+            let userDetails:[String:String] = UserDefaults.standard.getUserDetails(value: email.text!)
+            if (password.text! == userDetails["password"]) {
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let vc = storyboard.instantiateViewController(identifier: "TabBarView")
+                vc.modalPresentationStyle = .overFullScreen
+                vc.modalTransitionStyle = .flipHorizontal
+                present(vc, animated: true)
+            } else {
+                self.showAlert(message: "Invalid Username/Password", title: "Error")
+            }
         }
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(identifier: "TabBarView")
-        vc.modalPresentationStyle = .overFullScreen
-        vc.modalTransitionStyle = .flipHorizontal
-        present(vc, animated: true)
-    }
+
     
     @IBAction func CreateAccount(_ sender: Any) {
 
